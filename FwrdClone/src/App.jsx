@@ -1,10 +1,11 @@
 import React from 'react';
+import Home from "./pages/Home";
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <h1>FWRD Clone Project</h1>
+      <Home />   
       <Footer />
     </div>
   );
