@@ -7,7 +7,7 @@ const Footer = () => {
       {/* TOP */}
       <div className="footer-top">
         <strong>HELP US IMPROVE</strong>
-        Take a brief survey about today's visit
+        Take a brief survey about today's visit.
         <a href="#" >Begin Survey</a>
       </div>
 
