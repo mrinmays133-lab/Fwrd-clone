@@ -9,7 +9,7 @@ const Navbar = () => {
           <span>EN</span>
           <span>|</span>
           <span>INR</span>
-          <span>Login</span>
+          <a href="Login.jsx">Login</a>
           <span>Sign In</span>
         </div>
       </div>
