@@ -1,5 +1,11 @@
+import Footer from "./components/Footer";
+import Cart from "./pages/Cart";
 function App() {
-  return <h1>FWRD Clone Project</h1>;
-}
-
+  return (
+    <div>
+      <Cart />
+      <Footer />
+    </div>
+  )
+};
 export default App;
