@@ -1,0 +1,140 @@
+/* General Reset */
+.auth-container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header & Logo */
+.auth-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  margin: 0;
+}
+
+.assistance-text {
+  font-size: 11px;
+  text-transform: none;
+}
+
+/* Layout Grid */
+.auth-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+/* Typography */
+h2 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+
+.sub-text {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+ul {
+  font-size: 12px;
+  padding-left: 18px;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+/* Form Elements */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 0; /* Important: removes rounded corners */
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: 1px solid #000;
+  border-color: #000;
+}
+
+/* Buttons */
+.auth-button {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 18px;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: opacity 0.2s;
+}
+
+.auth-button:hover {
+  opacity: 0.8;
+}
+
+/* Checkboxes & Radios */
+.options-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.gender-selection {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+/* Footer */
+.auth-footer {
+  text-align: center;
+  font-size: 10px;
+  color: #666;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
