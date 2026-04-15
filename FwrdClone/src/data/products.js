@@ -5,7 +5,7 @@ const products = [
     name: "Scarf Top",
     type: "top",
     price: 46781.85,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -14,7 +14,7 @@ const products = [
     name: "Short Pareo",
     type: "bottom",
     price: 42528.96,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -23,7 +23,7 @@ const products = [
     name: "Eteri Top",
     type: "top",
     price: 40166.24,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -32,7 +32,7 @@ const products = [
     name: "Eteri Skirt",
     type: "bottom",
     price: 80332.48,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -41,7 +41,7 @@ const products = [
     name: "Structured Bandeau Crop Top",
     type: "top",
     price: 27880.10,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -50,7 +50,7 @@ const products = [
     name: "Bubble Short",
     type: "bottom",
     price: 37330.97,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -59,7 +59,7 @@ const products = [
     name: "Phoebe Top",
     type: "top",
     price: 28352.64,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -68,7 +68,7 @@ const products = [
     name: "Evie Pant",
     type: "bottom",
     price: 33078.08,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -77,7 +77,7 @@ const products = [
     name: "Alchemy Relaxed Satin Top",
     type: "top",
     price: 68518.88,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -86,7 +86,7 @@ const products = [
     name: "Alchemy Relaxed Short",
     type: "bottom",
     price: 56232.73,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -95,7 +95,7 @@ const products = [
     name: "Valentine Top",
     type: "top",
     price: 36858.43,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -104,7 +104,7 @@ const products = [
     name: "Valentine Skirt",
     type: "bottom",
     price: 39693.69,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -113,7 +113,7 @@ const products = [
     name: "Camden Top",
     type: "top",
     price: 46781.85,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -122,7 +122,7 @@ const products = [
     name: "Naomi Pull On Pant",
     type: "bottom",
     price: 84585.37,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -131,7 +131,7 @@ const products = [
     name: "The Celeste Tube Top",
     type: "top",
     price: 12097.13,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -140,7 +140,7 @@ const products = [
     name: "The Celeste Skort",
     type: "bottom",
     price: 13042.21,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -149,7 +149,7 @@ const products = [
     name: "Poplin Bustier Top",
     type: "top",
     price: 18712.74,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -158,7 +158,7 @@ const products = [
     name: "Poplin Draped Ruched Skirt",
     type: "bottom",
     price: 21548.01,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -167,7 +167,7 @@ const products = [
     name: "Davet Top",
     type: "top",
     price: 115300.73,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -176,7 +176,7 @@ const products = [
     name: "Inaya Skirt",
     type: "bottom",
     price: 130422.14,
-    category: "matching sets",
+    category: "matching-sets",
     image: ""
   },
   {
@@ -3964,7 +3964,7 @@ const products = [
     name: "Midi Lace Dress",
     type: "dress",
     price: 121916.35,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -3973,7 +3973,7 @@ const products = [
     name: "Ariro Dress",
     type: "dress",
     price: 65211.07,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -3982,7 +3982,7 @@ const products = [
     name: "Yvonne Applique Mini Dress",
     type: "dress",
     price: 75134.49,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -3991,7 +3991,7 @@ const products = [
     name: "Flori Dress",
     type: "dress",
     price: 87420.64,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4000,7 +4000,7 @@ const products = [
     name: "Phoebe Dress",
     type: "dress",
     price: 43474.05,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4009,7 +4009,7 @@ const products = [
     name: "Neck Tie Gown",
     type: "dress",
     price: 146486.62,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4018,7 +4018,7 @@ const products = [
     name: "Arena Dress",
     type: "dress",
     price: 55760.19,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4027,7 +4027,7 @@ const products = [
     name: "Midi Dress",
     type: "dress",
     price: 216425.14,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4036,7 +4036,7 @@ const products = [
     name: "Broderie Mini Dress",
     type: "dress",
     price: 46309.31,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4045,7 +4045,7 @@ const products = [
     name: "Sofia Dress",
     type: "dress",
     price: 49617.12,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4054,7 +4054,7 @@ const products = [
     name: "Doe Dress",
     type: "dress",
     price: 94319.78,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4063,7 +4063,7 @@ const products = [
     name: "Onis Dress",
     type: "dress",
     price: 236271.98,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4072,7 +4072,7 @@ const products = [
     name: "Luna Ruffle Playsuit",
     type: "dress",
     price: 84585.37,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4081,7 +4081,7 @@ const products = [
     name: "Arlo Maxi Dress",
     type: "dress",
     price: 26462.46,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4090,7 +4090,7 @@ const products = [
     name: "Beline Dress",
     type: "dress",
     price: 56232.73,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4099,7 +4099,7 @@ const products = [
     name: "Cotton Ribbed Printed Marine Long Dress",
     type: "dress",
     price: 54815.10,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4108,7 +4108,7 @@ const products = [
     name: "Gold Detail Jersey Draped Long Dress",
     type: "dress",
     price: 188072.52,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4117,7 +4117,7 @@ const products = [
     name: "Emily Applique Midi Dress",
     type: "dress",
     price: 84585.37,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4126,7 +4126,7 @@ const products = [
     name: "Calla Dress",
     type: "dress",
     price: 98383.66,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   },
   {
@@ -4135,7 +4135,7 @@ const products = [
     name: "Costa Gathered Mini Dress",
     type: "dress",
     price: 39963.69,
-    category: "8 dresses you need",
+    category: "8-dresses-you-need",
     image: ""
   }  
 ];
