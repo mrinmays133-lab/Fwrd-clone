@@ -1,6 +1,20 @@
+import { useState } from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [feedback, setFeedback] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (!email.trim()) {
+      setFeedback("Please enter a valid email address.");
+      return;
+    }
+    setFeedback("Thank you! You are now subscribed.");
+    setEmail("");
+  };
+
   return (
     <footer className="footer">
 
@@ -28,7 +42,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-column">
-          <h4></h4>
+          <h4>ABOUT</h4>
           <p><a href="#">The Loyalty Program</a></p>
           <p><a href="#">Ambassador Program</a></p>
           <p><a href="#">Affiliate</a></p>
@@ -43,10 +57,19 @@ const Footer = () => {
           </p>
           <p><a href="#">privacy policy</a></p>
 
-          <div className="newsletter-box">
-            <input placeholder="Sign up for our weekly emails" />
-            <span>→</span>
-          </div>
+          <form className="newsletter-form" onSubmit={handleSubmit}>
+            <div className="newsletter-box">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Sign up for our weekly emails"
+                aria-label="Email address"
+              />
+              <button type="submit" aria-label="Subscribe">→</button>
+            </div>
+            {feedback && <p className="newsletter-feedback">{feedback}</p>}
+          </form>
         </div>
 
         <div className="footer-column">

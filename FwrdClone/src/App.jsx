@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import AuthPage from "./pages/Login"; // Ensure your Login component is imported
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    <div>
   );
 }
 
