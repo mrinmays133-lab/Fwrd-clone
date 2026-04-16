@@ -1070,18 +1070,17 @@ const products = [
     image: ""
   },
   {
-   id: 120,
-   brand: "ARMA",
-   name: "Frederica Suede Bomber Jacket",
-   type: "outerwear",
-   price: 116718.36,
-   category: "rosies-picks",
-   image: ""
+    id: 120,
+    brand: "ARMA",
+    name: "Frederica Suede Bomber Jacket",
+    type: "outerwear",
+    price: 116718.36,
+    category: "rosies-picks",
+    image: ""
   },
   {
-
-   id: 121,
-   brand: "MAISON MARGIELA",
+  id: 121,
+  brand: "MAISON MARGIELA",
   name: "Western Boot",
   type: "footwear",
   price: 235326.91,
@@ -2914,7 +2913,186 @@ const products = [
     price: 12286.14,
     category: "shoes",
     image: ""
+  },
+  {
+    id: 325,
+    brand: "AMOUAGE",
+    name: "Guidance Eau De Parfum",
+    type: "beauty",
+    price: 37330.97,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 326,
+    brand: "VICTORIA BECKHAM BEAUTY",
+    name: "Colour Wash Bronzer Water Tints",
+    type: "beauty",
+    price: 4347.40,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 327,
+    brand: "NATURA BISSE",
+    name: "Diamond Cocoon Sheer Cream",
+    type: "beauty",
+    price: 25328.36,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 328,
+    brand: "SALTYFACE",
+    name: "Tanning Water",
+    type: "beauty",
+    price: 3989.37,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 329,
+    brand: "SALTYFACE",
+    name: "Brush No. 1",
+    type: "beauty",
+    price: 1964.68,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 330,
+    brand: "ELLIOT COLE",
+    name: "Phases Eau De Parfum",
+    type: "beauty",
+    price: 14648.86,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 331,
+    brand: "MUTHA",
+    name: "Eye Maintenance 6-Peptide Eye Mask",
+    type: "beauty",
+    price: 3591.33,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 332,
+    brand: "BYREDO",
+    name: "Gypsy Water Body Oil",
+    type: "beauty",
+    price: 10395.97,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 333,
+    brand: "111SKIN",
+    name: "Cryo Globes Facial Massage Tool",
+    type: "beauty",
+    price: 10868.51,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 334,
+    brand: "ORIBE",
+    name: "Supershine Smoothing Wax Stick",
+    type: "beauty",
+    price: 4347.40,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 335,
+    brand: "TRONQUE",
+    name: "Firming Butter",
+    type: "beauty",
+    price: 12286.14,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 336,
+    brand: "HERETIC PARFUM",
+    name: "Midnight Toker Body Wash",
+    type: "beauty",
+    price: 3213.30,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 337,
+    brand: "DR. DIAMOND'S METACINE",
+    name: "Instafacial Collection Set",
+    type: "beauty",
+    price: 63793.44,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 338,
+    brand: "PAR OLIVE",
+    name: "Advanced Skin Multivitamin",
+    type: "beauty",
+    price: 7088.16,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 339,
+    brand: "HIGHERDOSE",
+    name: "Full Body Red Light Mat",
+    type: "beauty",
+    price: 113316.05,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 340,
+    brand: "VICTORIA BECKHAM BEAUTY",
+    name: "Posh Lip",
+    type: "beauty",
+    price: 3685.84,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 341,
+    brand: "ALTESSE STUDIO",
+    name: "Beaute Classic Repair & Shine Brush",
+    type: "beauty",
+    price: 30242.81,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 342,
+    brand: "PHILIP B",
+    name: "Detangling Toning Mist With Velvet Oud",
+    type: "beauty",
+    price: 4725.44,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 343,
+    brand: "MELYON",
+    name: "Le Miel Bar Soap",
+    type: "beauty",
+    price: 2646.25,
+    category: "beauty",
+    image: ""
+  },
+  {
+    id: 344,
+    brand: "CROWN ALCHEMIST",
+    name: "Resurfacing Targeted Body Lotion",
+    type: "beauty",
+    price: 4725.44,
+    category: "beauty",
+    image: ""
   }
 ];
-
 export default products;
