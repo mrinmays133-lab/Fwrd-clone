@@ -32,8 +32,34 @@
     text-decoration: none;
 }
 
+.footer-top a.hover-remove-underline {
+    text-decoration: underline;
+}
+
+.footer-top a.hover-remove-underline:hover {
+    text-decoration: none;
+}
+
 .footer-top a:hover {
     text-decoration: underline;
+}
+
+/* HOVER REMOVE UNDERLINE */
+.hover-remove-underline {
+    text-decoration: underline !important;
+    color: #000;
+}
+
+.hover-remove-underline:hover {
+    text-decoration: none !important;
+}
+
+.footer-column a.hover-remove-underline {
+    text-decoration: underline;
+}
+
+.footer-column a.hover-remove-underline:hover {
+    text-decoration: none;
 }
 
 /* LINE */
@@ -186,5 +212,13 @@
 
 a {
     color: inherit;
+    text-decoration: none;
+}
+
+a.hover-remove-underline {
+    text-decoration: underline;
+}
+
+a.hover-remove-underline:hover {
     text-decoration: none;
 }
