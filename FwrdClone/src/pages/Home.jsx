@@ -119,7 +119,7 @@ const Home = () => {
       {/* SECTION 1 */}
       <section className="shop-section">
         <h1 className="shop-title">
-          Welcome to FaSHioN StOrE
+          Welcome to LUXION StOrE
         </h1>
 
         <div className="shop-grid">
