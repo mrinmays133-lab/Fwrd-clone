@@ -109,44 +109,8 @@ const shops = [
     image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_FutureHeirlooms.jpg",
     title: "Future Heirlooms",
     description:
-      "Today’s buys, tomorrow’s staples. These are the investment buys you’ll reach for time and time again.",
+      "Today's buys, tomorrow's staples. These are the investment buys you'll reach for time and time again.",
   },
-  {
-    image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_MatchingSets.jpg",
-    title: "Matching Sets",
-    description:
-      "Whether paired together or styled apart, matching sets make everyday dressing a breeze.",
-  },
-  {
-    image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_SpringFWRDPastel.jpg",
-    title: "Spring FWRD in Pastels",
-    description:
-      "From light yellows to peach tones, let these pastel hues grace your wardrobe.",
-  },
-  {
-    image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_NeutralDresses.jpg",
-    title: "Neutral Dresses",
-    description:
-      "Embrace a subtle refresh in these easy, always polished neutrals.",
-  },
-  {
-    image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_PersonalityPacked.jpg",
-    title: "Personality Packed Wardrobe",
-    description:
-      "Explore this maximalist edit of Pucci prints, bold hues, & playful details.",
-  },
-  {
-    image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_HaeloDrop3.jpg",
-    title: "Haelo: Season 3",
-    description:
-      "Introducing Haelo Season 3, a vision of sculpted sensuality crafted from embroidered lace corsetry, pleated sheer jersey, and draped, lace-trimmed georgette.",
-  },
-  {
-    image: "https://is4.revolveassets.com/images/up/2026/March/033026_FW_Trends_8Dresses.jpg",
-    title: "8 Dresses You Need",
-    description:
-      "Let us sort out your capsule dress collection, from your new favorite LBD to your ultimate vacation essentials.",
-  }
 ];
 
 const Home = () => {
@@ -159,7 +123,7 @@ const Home = () => {
         </h1>
 
         <div className="shop-grid">
-          {shops.slice(0, 12).map((shop) => (
+          {shops.slice(0,6).map((shop) => (
             <ProductCard key={shop.title} {...shop} />
           ))}
         </div>
@@ -172,7 +136,7 @@ const Home = () => {
         </h1>
 
         <div className="shop-grid">
-          {shops.slice(12).map((shop) => (
+          {shops.slice(6).map((shop) => (
             <ProductCard key={shop.title} {...shop} />
           ))}
         </div>
