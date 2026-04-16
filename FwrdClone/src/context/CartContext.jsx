@@ -3,11 +3,11 @@ import { createContext, useState } from "react";
 // create context
 export const CartContext = createContext();
 
-// provider component
+// provider
 const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
-  // add to cart
+  // ADD TO CART
   const addToCart = (product) => {
     setCart((prev) => {
       const exists = prev.find((item) => item.id === product.id);
@@ -24,21 +24,21 @@ const CartProvider = ({ children }) => {
     });
   };
 
-  // remove item
+  // REMOVE ITEM (fixed)
   const removeItem = (id) => {
-    setCart(cart.filter((item) => item.id !== id));
+    setCart((prev) => prev.filter((item) => item.id !== id));
   };
 
-  // update quantity
+  // UPDATE QUANTITY (fixed)
   const updateQty = (id, qty) => {
-    setCart(
-      cart.map((item) =>
+    setCart((prev) =>
+      prev.map((item) =>
         item.id === id ? { ...item, quantity: qty } : item
       )
     );
   };
 
-  // total price
+  // TOTAL PRICE
   const total = cart.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0

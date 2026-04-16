@@ -1,7 +1,10 @@
-const ProductCard = ({ image, title, description, link = "#" }) => {
+import React from "react";
+import { Link } from "react-router-dom";
+
+const ProductCard = ({ image, title, description, category }) => {
   return (
     <div className="shop-card">
-
+      
       <div className="shop-card__image-wrapper">
         <img
           src={image}
@@ -19,9 +22,9 @@ const ProductCard = ({ image, title, description, link = "#" }) => {
         {description}
       </p>
 
-      <a href={link} className="shop-card__link">
+      <Link to={`/shop/${category}`} className="shop-card__link">
         Shop Now
-      </a>
+      </Link>
 
     </div>
   );
