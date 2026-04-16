@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 import "./Navbar.css";
@@ -11,43 +11,60 @@ const categories = [
   { label: "BEAUTY", path: "/shop/beauty" }
 ];
 
-const Navbar = () => {
+const Navbar = ({ toggleTheme, theme }) => {
+  const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const { cart } = useContext(CartContext);
-
   const itemCount = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
     <nav className="navbar">
-      {/* Top */}
-      <div className="navbar-top">
-        <div className="navbar-spacer"></div>
-
-        {/* Logo */}
-        <div className="navbar-logo">
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-            LUXION
-          </Link>
-        </div>
-
-        {/* Actions */}
-        <div className="navbar-actions">
-          <Link to="/login" className="navbar-link">
-            Sign In
-          </Link>
-
-          <Link to="/cart" className="navbar-link">
-            My Bag ({itemCount})
-          </Link>
+      {/* Mini Nav */}
+      <div className="navbar-mini">
+        <div className="mini-right">
+          <span>EN</span>
+          <span>|</span>
+          <span>INR</span>
+          <span><Link to="/login">Sign In</Link></span>
         </div>
       </div>
 
-      {/* Categories */}
-      <div className="navbar-categories">
-        {categories.map((cat) => (
-          <Link key={cat.label} to={cat.path} className="navbar-cat">
-            {cat.label}
-          </Link>
-        ))}
+      {/* Top Nav */}
+      <div className="navbar-top">
+        <div className="navbar-left">
+          <span>Womens</span>
+          <span>Mens</span>
+        </div>
+
+        <div className="navbar-center">
+          <h1>
+            <Link to="/">LUXION</Link>
+          </h1>
+        </div>
+
+        <div className="navbar-right">
+          <div className="search-bar">
+            <input
+              type="text"
+              placeholder="Search"
+              className={`search-input ${isSearchExpanded ? 'expanded' : ''}`}
+              onFocus={() => setIsSearchExpanded(true)}
+              onBlur={() => setIsSearchExpanded(false)}
+            />
+          </div>
+          <button onClick={toggleTheme} className="theme-toggle" title="Toggle dark mode">
+            {theme === 'light' ? '🌙' : '☀️'}
+          </button>
+          <Link to="/cart">My Bag ({itemCount})</Link>
+        </div>
+      </div>
+
+      {/* Bottom Nav - Categories */}
+      <div className="navbar-bottom">
+        <ul className="navbar-links">
+          {categories.map((cat) => (
+            <li key={cat.label}><Link to={cat.path}>{cat.label}</Link></li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
