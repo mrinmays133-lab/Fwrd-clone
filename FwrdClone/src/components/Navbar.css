@@ -1,145 +1,78 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Franklin:wght@300;400;500&display=swap');
 
 .navbar {
   width: 100%;
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-}
+  border-bottom: 1px solid #e5e5e5;
 
-.navbar-mini {
-  display: flex;
-  justify-content: flex-end;
-  padding: 5px 40px;
-  font-size: 12px;
-  border-bottom: 1px solid #eee;
-}
-
-.mini-right {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-
-/* Updated login link for React Router Link component */
-.login-link {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  font-size: 11px;
+  /* Default font (clean UI text) */
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .navbar-top {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
   align-items: center;
-  padding: 15px 60px;
-}
-
-.navbar-left {
-  display: flex;
-  gap: 20px;
-  font-size: 14px;
-}
-
-.navbar-center {
-  text-align: center;
-}
-
-/* Matching the bold FWRD logo style */
-.navbar-center h1 {
-  font-size: 28px;
-  letter-spacing: 3px;
-  font-size: 32px;
-  font-weight: 900;
-  letter-spacing: -2px;
-  margin: 0;
-}
-
-.navbar-right {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-  font-size: 14px;
-  align-items: center;
-}
-
-.search-bar {
-  position: relative;
-}
-
-.search-input {
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  font-size: 14px;
-  outline: none;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  background: #fff url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') no-repeat center;
-  background-size: 16px;
-}
-
-.search-input.expanded {
-  width: 220px;
-  border-radius: 24px;
-  background: #fff;
-  padding: 8px 16px;
-}
-
-.search-input::placeholder {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.search-input.expanded::placeholder {
-  opacity: 1;
-}
-
-.navbar-bottom {
-  padding: 12px 40px;
-  border-top: 1px solid #eee;
-}
-
-.navbar-links {
-  display: flex;
   justify-content: space-between;
-  list-style: none;
-  max-width: 1100px;
-  margin: 0 auto;
+  padding: 12px 32px;
 }
 
-.navbar-links li {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+.navbar-spacer {
+  flex: 1;
+}
+
+.navbar-womens {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
   cursor: pointer;
 }
 
-/* Hover effects for all navigation elements */
-.navbar-links li:hover,
-.navbar-left span:hover,
-.navbar-right span:hover,
-.mini-right span:hover,
-.login-link:hover {
-  text-decoration: underline;
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+
+  /* Luxury serif font for brand */
+  font-family: 'Cormorant Garamond', serif;
 }
 
-.navbar-links a:hover,
-.navbar-left a:hover,
-.navbar-right a:hover,
-.mini-right a:hover {
-  text-decoration: underline;
+.navbar-actions {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
 }
 
-.navbar-center a:hover {
-  text-decoration: none;
+.navbar-link {
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
 }
 
+.navbar-link:hover {
+  opacity: 0.6;
+}
 
+.navbar-categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 64px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.navbar-cat {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  /* Slightly more refined look */
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.navbar-cat:hover {
+  opacity: 0.6;
+}
