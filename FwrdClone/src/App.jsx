@@ -4,16 +4,17 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
-// import Shop from './pages/Shop';
+import Shop from './pages/Shop';
 import AuthPage from './pages/Login';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      {/* <Shop /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/shop" element={<Shop />} /> */}
+        <Route path="/shop/:category" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<AuthPage />} />
       </Routes>
