@@ -1,0 +1,51 @@
+/* Ensure the mini-nav links are small and clean */
+.mini-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+}
+
+.mini-right a, 
+.login-link {
+  text-decoration: none;
+  color: #000;
+  transition: opacity 0.2s;
+}
+
+.mini-right a:hover, 
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Center Logo styling */
+.logo-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-link h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+/* Bottom Nav Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+}
+
+.navbar-links a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000;
+}
