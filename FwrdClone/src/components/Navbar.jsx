@@ -1,19 +1,18 @@
+import { Link } from 'react-router-dom'; //
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-
       <div className="navbar-mini">
         <div className="mini-right">
           <span>EN</span>
           <span>|</span>
           <span>INR</span>
-          <a href="Login.jsx">Login</a>
-          <span>Sign In</span>
+          {/* Replace <a> with <Link> and point to the "/login" path */}
+          <Link to="/login" className="login-link">Sign In</Link> {/* */}
         </div>
       </div>
-
 
       <div className="navbar-top">
         <div className="navbar-left">
@@ -22,7 +21,10 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-center">
-          <h1>FasHiOn</h1>
+          {/* Link the logo back to the home page */}
+          <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <h1>FasHiOn</h1>
+          </Link> {/* */}
         </div>
 
         <div className="navbar-right">
@@ -31,7 +33,6 @@ const Navbar = () => {
         </div>
       </div>
 
-  
       <div className="navbar-bottom">
         <ul className="navbar-links">
           <li>Clothing</li>
@@ -41,9 +42,8 @@ const Navbar = () => {
           <li>Beauty</li>
         </ul>
       </div>
-
     </nav>
   );
 };
 
-export default Navbar
+export default Navbar;
