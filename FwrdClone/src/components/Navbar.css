@@ -7,6 +7,7 @@
 .navbar {
   width: 100%;
   font-family: Arial, sans-serif;
+  background-color: #fff;
 }
 
 .navbar-mini {
@@ -20,6 +21,15 @@
 .mini-right {
   display: flex;
   gap: 15px;
+  align-items: center;
+}
+
+/* Updated login link for React Router Link component */
+.login-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 11px;
 }
 
 .navbar-top {
@@ -39,9 +49,12 @@
   text-align: center;
 }
 
+/* Matching the bold FWRD logo style */
 .navbar-center h1 {
-  font-size: 28px;
-  letter-spacing: 3px;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin: 0;
 }
 
 .navbar-right {
@@ -53,6 +66,7 @@
 
 .navbar-bottom {
   padding: 12px 40px;
+  border-top: 1px solid #eee;
 }
 
 .navbar-links {
@@ -65,13 +79,17 @@
 
 .navbar-links li {
   font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: 1.5px;
   cursor: pointer;
 }
 
+/* Hover effects for all navigation elements */
 .navbar-links li:hover,
 .navbar-left span:hover,
 .navbar-right span:hover,
-.mini-right span:hover {
+.mini-right span:hover,
+.login-link:hover {
   text-decoration: underline;
 }
