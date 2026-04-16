@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="footer-top">
         <strong>HELP US IMPROVE</strong>
         Take a brief survey about today's visit.
-        <a href="#" >Begin Survey</a>
+        <a href="#" className="hover-remove-underline">Begin Survey</a>
       </div>
 
       {/* <hr /> */}
@@ -55,7 +55,7 @@ const Footer = () => {
           <p className="newsletter-text">
             Be the first to know about new arrivals, sales & promos by submitting <br />your email. You can opt out at any time.
           </p>
-          <p><a href="#">privacy policy</a></p>
+          <p><a href="#" className="hover-remove-underline">Privacy Policy</a></p>
 
           <form className="newsletter-form" onSubmit={handleSubmit}>
             <div className="newsletter-box">
