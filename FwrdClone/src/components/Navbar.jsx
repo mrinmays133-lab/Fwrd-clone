@@ -1,38 +1,27 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom'; // Essential for navigation
-import React, { useState, useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 import './Navbar.css';
 
-import { Link } from 'react-router-dom'; //
-import "./Navbar.css";
-
-const categories = [
-  { label: "CLOTHING", path: "/shop/clothing" },
-  { label: "BAGS", path: "/shop/bags" },
-  { label: "ACCESSORIES", path: "/shop/accessories" },
-  { label: "SHOES", path: "/shop/shoes" },
-  { label: "BEAUTY", path: "/shop/beauty" }
-];
-
 const Navbar = () => {
+  const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const { cart } = useContext(CartContext);
-
   const itemCount = cart.reduce((acc, item) => acc + item.quantity, 0);
-
   return (
     <nav className="navbar">
+      
       <div className="navbar-mini">
         <div className="mini-right">
           <span>🇮🇳</span>
           <a href="#">EN</a>
           <span>|</span>
+
           <a href="#">INR</a>
           <a href="#">Need Help?</a>
           {/* Using Link for the internal Login page */}
           <Link to="/login" className="login-link">Sign In</Link>
+
           <span>INR</span>
           <span><Link to="/login">Sign In</Link></span>
           {/* Replace <a> with <Link> and point to the "/login" path */}
@@ -69,16 +58,7 @@ const Navbar = () => {
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
             <h1>FasHiOn</h1>
           </Link> {/* */}
-      {/* Top */}
-      <div className="navbar-top">
-        <div className="navbar-spacer"></div>
 
-
-        {/* Logo */}
-        <div className="navbar-logo">
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-            LUXION
-          </Link>
         </div>
 
         <div className="navbar-right">
@@ -102,6 +82,7 @@ const Navbar = () => {
           <li><a href="#">Accessories</a></li>
           <li><a href="#">Shoes</a></li>
           <li><a href="#">Beauty</a></li>
+
           <li><Link to="/shop">Clothing</Link></li>
           <li><Link to="/shop">Bags</Link></li>
           <li><Link to="/shop">Accessories</Link></li>
@@ -109,25 +90,6 @@ const Navbar = () => {
           <li><Link to="/shop">Beauty</Link></li>
 
         </ul>
-        {/* Actions */}
-        <div className="navbar-actions">
-          <Link to="/login" className="navbar-link">
-            Sign In
-          </Link>
-
-          <Link to="/cart" className="navbar-link">
-            My Bag ({itemCount})
-          </Link>
-        </div>
-      </div>
-
-      {/* Categories */}
-      <div className="navbar-categories">
-        {categories.map((cat) => (
-          <Link key={cat.label} to={cat.path} className="navbar-cat">
-            {cat.label}
-          </Link>
-        ))}
       </div>
     </nav>
   );
