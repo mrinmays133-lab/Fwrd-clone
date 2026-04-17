@@ -7,6 +7,7 @@
 .navbar {
   width: 100%;
   font-family: Arial, sans-serif;
+  background-color: #fff;
 }
 
 .navbar-mini {
@@ -20,6 +21,15 @@
 .mini-right {
   display: flex;
   gap: 15px;
+  align-items: center;
+}
+
+/* Updated login link for React Router Link component */
+.login-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 11px;
 }
 
 .navbar-top {
@@ -39,9 +49,14 @@
   text-align: center;
 }
 
+/* Matching the bold FWRD logo style */
 .navbar-center h1 {
   font-size: 28px;
   letter-spacing: 3px;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin: 0;
 }
 
 .navbar-right {
@@ -49,10 +64,46 @@
   justify-content: flex-end;
   gap: 20px;
   font-size: 14px;
+  align-items: center;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-input {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: #fff url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') no-repeat center;
+  background-size: 16px;
+}
+
+.search-input.expanded {
+  width: 220px;
+  border-radius: 24px;
+  background: #fff;
+  padding: 8px 16px;
+}
+
+.search-input::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.search-input.expanded::placeholder {
+  opacity: 1;
 }
 
 .navbar-bottom {
   padding: 12px 40px;
+  border-top: 1px solid #eee;
 }
 
 .navbar-links {
@@ -65,13 +116,30 @@
 
 .navbar-links li {
   font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: 1.5px;
   cursor: pointer;
 }
 
+/* Hover effects for all navigation elements */
 .navbar-links li:hover,
 .navbar-left span:hover,
 .navbar-right span:hover,
-.mini-right span:hover {
+.mini-right span:hover,
+.login-link:hover {
   text-decoration: underline;
 }
+
+.navbar-links a:hover,
+.navbar-left a:hover,
+.navbar-right a:hover,
+.mini-right a:hover {
+  text-decoration: underline;
+}
+
+.navbar-center a:hover {
+  text-decoration: none;
+}
+
+
