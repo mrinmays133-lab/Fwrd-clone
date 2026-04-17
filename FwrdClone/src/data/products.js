@@ -1755,1345 +1755,1210 @@ const products = [
   image: ""
 },
 {
-  id: 196,
-  brand: "HELSA",
-  name: "Stripe Twill Blanket Skirt",
-  type: "bottom",
-  price: 40544.27,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 197,
-  brand: "BOTTEGA VENETA",
-  name: "Leather Belt",
-  type: "accessory",
-  price: 94508.80,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 198,
-  brand: "JIMMY CHOO",
-  name: "Elsy 90 Sandal",
-  type: "footwear",
-  price: 77969.76,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 199,
-  brand: "FLORE FLORE",
-  name: "Dinah Tank Top",
-  type: "top",
-  price: 10395.97,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 200,
-  brand: "WARDROBE.NYC",
-  name: "Sheer Tube Skirt",
-  type: "bottom",
-  price: 33078.08,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 201,
-  brand: "BOTTEGA VENETA",
-  name: "Dustbag Note Chain Bag",
-  type: "accessory",
-  price: 302428.16,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 202,
-  brand: "SAINT LAURENT",
-  name: "Guermantes Slingback Pump",
-  type: "footwear",
-  price: 127586.88,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 203,
-  brand: "DOLCE & GABBANA",
-  name: "Slingback Pump",
-  type: "footwear",
-  price: 136565.20,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 204,
-  brand: "THE ATTICO",
-  name: "Midi Lace Dress",
-  type: "dress",
-  price: 121916.35,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 205,
-  brand: "ANASTASIA BEVERLY HILLS",
-  name: "Magic Touch Blush Trio",
-  type: "accessory",
-  price: 3591.33,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 206,
-  brand: "MONCLER",
-  name: "Cloche Sunglasses",
-  type: "accessory",
-  price: 53019.43,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 207,
-  brand: "HELSA",
-  name: "Suede Trench Coat",
-  type: "outerwear",
-  price: 160475.94,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 208,
-  brand: "DOLCE & GABBANA",
-  name: "Sleeveless Top",
-  type: "top",
-  price: 193270.48,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 209,
-  brand: "THE ATTICO",
-  name: "Low Rise Midi Skirt",
-  type: "bottom",
-  price: 89783.36,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 210,
-  brand: "ALAÏA",
-  name: "Mule Sandal",
-  type: "footwear",
-  price: 203193.91,
-  category: "trending-color-pairings",
-  image: ""
-},
-{
-  id: 211,
-  brand: "MIU MIU",
-  name: "Cashmere F12 Vest",
-  type: "top",
-  price: 169170.75,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 212,
-  brand: "MIU MIU",
-  name: "Intreccio Metal Belt",
-  type: "accessory",
-  price: 96398.97,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 213,
-  brand: "MIU MIU",
-  name: "Straight Leg Trouser",
-  type: "bottom",
-  price: 178621.62,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 214,
-  brand: "MIU MIU",
-  name: "Check Mini Dress",
-  type: "dress",
-  price: 217370.23,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 215,
-  brand: "MIU MIU",
-  name: "Ballerine Slingback Flat",
-  type: "footwear",
-  price: 121916.35,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 216,
-  brand: "MIU MIU",
-  name: "Popeline Top",
-  type: "top",
-  price: 101124.41,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 217,
-  brand: "MIU MIU",
-  name: "Square Eyeglasses",
-  type: "accessory",
-  price: 43379.54,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 218,
-  brand: "MIU MIU",
-  name: "Short",
-  type: "bottom",
-  price: 137037.77,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 219,
-  brand: "MIU MIU",
-  name: "Modellere 55 Pump",
-  type: "footwear",
-  price: 153104.25,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 220,
-  brand: "MIU MIU",
-  name: "Gabardine Old Skirt",
-  type: "bottom",
-  price: 127586.88,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 221,
-  brand: "MIU MIU",
-  name: "Gabardine Old Dress",
-  type: "dress",
-  price: 283526.38,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 222,
-  brand: "MIU MIU",
-  name: "Agnello Scamosciato Cerato Jacket",
-  type: "outerwear",
-  price: 727717.75,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 223,
-  brand: "MIU MIU",
-  name: "Gabardine Old Pelle Jacket",
-  type: "outerwear",
-  price: 519798.38,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 224,
-  brand: "MIU MIU",
-  name: "Scamosciato Jacket",
-  type: "outerwear",
-  price: 850579.19,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 225,
-  brand: "MIU MIU",
-  name: "Macrame Anemone Skirt",
-  type: "bottom",
-  price: 463093.09,
-  category: "miu-miu-style-essential",
-  image: ""
-},
-{
-  id: 226,
-  brand: "KHAITE",
-  name: "Dolos Jacket",
-  type: "outerwear",
-  price: 642669.81,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 227,
-  brand: "ALAÏA",
-  name: "Round Leg Pant",
-  type: "bottom",
-  price: 141763.20,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 228,
-  brand: "MONCLER",
-  name: "Sunset Aviator Sunglasses",
-  type: "accessory",
-  price: 38276.06,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 229,
-  brand: "VALENTINO GARAVANI",
-  name: "Viva Superstar Animalier Small Tote Bag",
-  type: "accessory",
-  price: 302428.16,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 230,
-  brand: "AMINA MUADDI",
-  name: "Anok 105 Patent Pump",
-  type: "footwear",
-  price: 97816.60,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 231,
-  brand: "ROWEN ROSE",
-  name: "Long Coat",
-  type: "outerwear",
-  price: 221056.08,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 232,
-  brand: "DEMARSON",
-  name: "Ivy Tennis Bracelet Set Of 2",
-  type: "accessory",
-  price: 42528.96,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 233,
-  brand: "THE ROW",
-  name: "Janne Suede Jacket",
-  type: "outerwear",
-  price: 557601.88,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 234,
-  brand: "THE ROW",
-  name: "Kieran Suede Pant",
-  type: "bottom",
-  price: 519798.38,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 235,
-  brand: "THE ROW",
-  name: "Marlo 12 Bag",
-  type: "accessory",
-  price: 463093.09,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 236,
-  brand: "THE ROW",
-  name: "Mens Loafer",
-  type: "footwear",
-  price: 103014.59,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 237,
-  brand: "SAINT LAURENT",
-  name: "SL 596 Dune Optical Eyeglasses",
-  type: "accessory",
-  price: 49144.57,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 238,
-  brand: "FWRD RENEW",
-  name: "Chanel Caviar Wallet On Chain",
-  type: "accessory",
-  price: 311879.03,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 239,
-  brand: "MUGLER",
-  name: "Long Sleeve Mini Dress",
-  type: "dress",
-  price: 141763.20,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 240,
-  brand: "VALENTINO GARAVANI",
-  name: "Porteque Des Gouttes Earrings",
-  type: "accessory",
-  price: 160664.95,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 241,
-  brand: "FWRD RENEW",
-  name: "Fendi X Sarah Coleman FF Fish Eye Embroidered Bag",
-  type: "accessory",
-  price: 207919.34,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 242,
-  brand: "ALAÏA",
-  name: "Cinch Bomber",
-  type: "outerwear",
-  price: 686287.00,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 243,
-  brand: "HELSA",
-  name: "Devora Polo Bodysuit",
-  type: "top",
-  price: 22493.09,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 244,
-  brand: "EB DENIM",
-  name: "Aida Loose Bowed Jean",
-  type: "bottom",
-  price: 26935.01,
-  category: "future-heirlooms",
-  image: ""
-},
-{
-  id: 245,
-  brand: "BALENCIAGA",
-  name: "Bathrobe Coat",
-  type: "outerwear",
-  price: 467815.53,
-  category: "future-heirlooms",
-  image: ""
-},
- {
-    id: 246,
-    brand: "ACOLDE",
-    name: "Barton Dress",
-    type: "dress",
-    price: 26273.45,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 247,
-    brand: "ACOLDE",
-    name: "Nye Relaxed Shorts",
-    type: "bottom",
-    price: 15877.48,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 248,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Charissa Shrunken Jacket",
-    type: "jacket",
-    price: 28163.62,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 249,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Flight Pant",
-    type: "bottom",
-    price: 33834.15,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 250,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Esme Cargo Trouser",
-    type: "bottom",
-    price: 24383.27,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 251,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Inex Waffle Tank",
-    type: "top",
-    price: 9261.86,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 252,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Gia Bubble Tee",
-    type: "top",
-    price: 15877.48,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 253,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Fabien Tee",
-    type: "top",
-    price: 13987.30,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 254,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Humanity Baby Waffle Tee",
-    type: "top",
-    price: 13987.30,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 255,
-    brand: "CITIZENS OF HUMANITY",
-    name: "Baby Waffle Tee",
-    type: "top",
-    price: 13987.30,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 256,
-    brand: "HELSA",
-    name: "Fairweather Midi Dress in Stretch Cotton Sateen",
-    type: "dress",
-    price: 32983.57,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 257,
-    brand: "HELSA",
-    name: "Fairweather Midi Dress in Stretch Cotton Sateen",
-    type: "dress",
-    price: 32983.57,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 258,
-    brand: "HELSA",
-    name: "Fairweather Midi Dress in Stretch Cotton Sateen",
-    type: "dress",
-    price: 32983.57,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 259,
-    brand: "HELSA",
-    name: "Emmalyn Cowl Gown",
-    type: "dress",
-    price: 31093.39,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 260,
-    brand: "HELSA",
-    name: "Mayumi Open Side Dress",
-    type: "dress",
-    price: 28352.64,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 261,
-    brand: "HELSA",
-    name: "Freya Knit Mini Dress",
-    type: "dress",
-    price: 25422.87,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 262,
-    brand: "HELSA",
-    name: "Tesca Knit Dress",
-    type: "dress",
-    price: 37614.50,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 263,
-    brand: "HELSA",
-    name: "Lettie Knit Blazer Dress",
-    type: "dress",
-    price: 31093.39,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 264,
-    brand: "HELSA",
-    name: "Charitra Open Back Dress",
-    type: "dress",
-    price: 32208.00,
-    category: "clothing",
-    image: ""
-  },
-  {
-    id: 265,
-    brand: "HELSA",
-    name: "Svetlana Jersey Gown",
-    type: "dress",
-    price: 31093.39,
-    category: "clothing",
-    image: ""
-  },
-   {
-    id: 266,
-    brand: "FWRD RENEW",
-    name: "Gucci Pochette Shoulder Bag",
-    type: "bag",
-    price: 42528.96,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 267,
-    brand: "FWRD RENEW",
-    name: "Fendi Zucca Baguette Shoulder Bag",
-    type: "bag",
-    price: 160192.41,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 268,
-    brand: "FWRD RENEW",
-    name: "Fendi Zucca Baguette Shoulder Bag",
-    type: "bag",
-    price: 160192.41,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 269,
-    brand: "FWRD RENEW",
-    name: "Fendi Zucca Mama Forever Baguette Shoulder Bag",
-    type: "bag",
-    price: 118136.00,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 270,
-    brand: "FWRD RENEW",
-    name: "Fendi Mini Chef Shoulder Bag",
-    type: "bag",
-    price: 36683.61,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 271,
-    brand: "FWRD RENEW",
-    name: "Fendi Mama Baguette Shoulder Bag",
-    type: "bag",
-    price: 103959.68,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 272,
-    brand: "FWRD RENEW",
-    name: "Gucci Nailhead Pochette Shoulder Bag",
-    type: "bag",
-    price: 84585.37,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 273,
-    brand: "FWRD RENEW",
-    name: "Louis Vuitton Monogram Match Speedy Bandouliere 25",
-    type: "bag",
-    price: 198468.47,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 274,
-    brand: "FWRD RENEW",
-    name: "Prada Saffiano Handbag",
-    type: "bag",
-    price: 236271.98,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 275,
-    brand: "FWRD RENEW",
-    name: "Gucci GG Marmont Shoulder Bag",
-    type: "bag",
-    price: 80332.48,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 276,
-    brand: "FWRD RENEW",
-    name: "Chanel Nylon Laptop Case",
-    type: "bag",
-    price: 94036.25,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 277,
-    brand: "FWRD RENEW",
-    name: "Gucci Mini GG Marmont Shoulder Bag",
-    type: "bag",
-    price: 112938.01,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 278,
-    brand: "FWRD RENEW",
-    name: "Chanel Lambskin Classic Double Flap Bag",
-    type: "bag",
-    price: 652110.69,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 279,
-    brand: "FWRD RENEW",
-    name: "Chanel Deauville MM Tote Bag",
-    type: "bag",
-    price: 302428.16,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 280,
-    brand: "FWRD RENEW",
-    name: "Fendi FF 1974 Mini Baguette Shoulder Bag",
-    type: "bag",
-    price: 165390.39,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 281,
-    brand: "FWRD RENEW",
-    name: "Gucci GG Marmont Shoulder Bag",
-    type: "bag",
-    price: 94036.25,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 282,
-    brand: "FWRD RENEW",
-    name: "Gucci Neo Vintage Belt Bag",
-    type: "bag",
-    price: 75607.04,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 283,
-    brand: "FWRD RENEW",
-    name: "Fendi Corduroy Baguette Shoulder Bag",
-    type: "bag",
-    price: 103959.68,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 284,
-    brand: "FWRD RENEW",
-    name: "Chanel Lambskin Wallet On Chain",
-    type: "bag",
-    price: 396936.94,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 285,
-    brand: "FWRD RENEW",
-    name: "Gucci Hobo Bag",
-    type: "bag",
-    price: 51979.84,
-    category: "bags",
-    image: ""
-  },
-  {
-    id: 286,
-    brand: "COMME SI",
-    name: "Striped Tube Sock",
-    type: "accessory",
-    price: 2835.26,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 287,
-    brand: "GIVENCHY",
-    name: "Double Buckle Belt",
-    type: "accessory",
-    price: 45364.22,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 288,
-    brand: "OLIVER PEOPLES",
-    name: "Edition 5 Irregular Sunglasses",
-    type: "accessory",
-    price: 75134.49,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 289,
-    brand: "OLIVER PEOPLES",
-    name: "Leroux Oval Sunglasses",
-    type: "accessory",
-    price: 54268.08,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 290,
-    brand: "OLIVER PEOPLES",
-    name: "Remmet Irregular Sunglasses",
-    type: "accessory",
-    price: 46592.84,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 291,
-    brand: "OLIVER PEOPLES",
-    name: "R-18 Pillow Sunglasses",
-    type: "accessory",
-    price: 45269.71,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 292,
-    brand: "OLIVER PEOPLES",
-    name: "X Jai Sander Cat Eye Sunglasses",
-    type: "accessory",
-    price: 69936.51,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 293,
-    brand: "OLIVER PEOPLES",
-    name: "X Jai Sander Edition 2 Irregular Sunglasses",
-    type: "accessory",
-    price: 75134.49,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 294,
-    brand: "OLIVER PEOPLES",
-    name: "X Khaite Oval Sunglasses",
-    type: "accessory",
-    price: 55665.68,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 295,
-    brand: "OLIVER PEOPLES",
-    name: "X Khaite Wraparound Sunglasses",
-    type: "accessory",
-    price: 55665.68,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 296,
-    brand: "OLIVER PEOPLES",
-    name: "X Khaite Cat Eye Sunglasses",
-    type: "accessory",
-    price: 55665.68,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 297,
-    brand: "PRADA",
-    name: "Oval Sunglasses",
-    type: "accessory",
-    price: 49522.61,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 298,
-    brand: "TOM FORD",
-    name: "Pilot Sunglasses",
-    type: "accessory",
-    price: 56322.73,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 299,
-    brand: "TOM FORD",
-    name: "Abbey Sunglasses",
-    type: "accessory",
-    price: 56705.28,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 300,
-    brand: "FWRD RENEW",
-    name: "Chanel Nylon Laptop Case",
-    type: "accessory",
-    price: 94036.25,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 301,
-    brand: "SAINT LAURENT",
-    name: "Leopard Stole Scarf",
-    type: "accessory",
-    price: 73716.86,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 302,
-    brand: "ALAÏA",
-    name: "Animalier Sunglasses",
-    type: "accessory",
-    price: 43870.01,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 303,
-    brand: "ALAÏA",
-    name: "Animalier Pilot Sunglasses",
-    type: "accessory",
-    price: 61903.26,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 304,
-    brand: "ALAÏA",
-    name: "Animalier Pilot Sunglasses",
-    type: "accessory",
-    price: 61903.26,
-    category: "accessories",
-    image: ""
-  },
-  {
-    id: 305,
-    brand: "AQUAZZURA",
-    name: "Bloss 85 Mule Sandal",
-    type: "shoes",
-    price: 89783.36,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 306,
-    brand: "AQUAZZURA",
-    name: "Copacabana 130 Wedge Sandal",
-    type: "shoes",
-    price: 122861.44,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 307,
-    brand: "A.EMERY",
-    name: "Jalen Sandal",
-    type: "shoes",
-    price: 23627.20,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 308,
-    brand: "A.EMERY",
-    name: "Jalen Slim Sandal",
-    type: "shoes",
-    price: 23627.20,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 309,
-    brand: "A.EMERY",
-    name: "Elmer Sandal",
-    type: "shoes",
-    price: 24572.29,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 310,
-    brand: "A.EMERY",
-    name: "Viola Sandal",
-    type: "shoes",
-    price: 21737.02,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 311,
-    brand: "A.EMERY",
-    name: "Kinto Sandal",
-    type: "shoes",
-    price: 18901.76,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 312,
-    brand: "A.EMERY",
-    name: "Viola Sandal",
-    type: "shoes",
-    price: 21737.02,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 313,
-    brand: "A.EMERY",
-    name: "Paton Sandal",
-    type: "shoes",
-    price: 19846.85,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 314,
-    brand: "A.EMERY",
-    name: "Leon Sandal",
-    type: "shoes",
-    price: 26462.46,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 315,
-    brand: "A.EMERY",
-    name: "Adams Low Sneaker",
-    type: "shoes",
-    price: 22997.73,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 316,
-    brand: "JENNI KAYNE",
-    name: "Lyle Slide",
-    type: "shoes",
-    price: 34495.71,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 317,
-    brand: "JENNI KAYNE",
-    name: "Lyle Slide",
-    type: "shoes",
-    price: 34495.71,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 318,
-    brand: "KHAITE",
-    name: "Marfa 55 Mule",
-    type: "shoes",
-    price: 111520.38,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 319,
-    brand: "ON",
-    name: "Cloudnova Moon Sneaker",
-    type: "shoes",
-    price: 18901.76,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 320,
-    brand: "ON",
-    name: "Cloudtilt Sneaker",
-    type: "shoes",
-    price: 16066.50,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 321,
-    brand: "ON",
-    name: "Cloudtilt Sneaker",
-    type: "shoes",
-    price: 16066.50,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 322,
-    brand: "ON",
-    name: "Cloudrunner 3 Sneaker",
-    type: "shoes",
-    price: 15121.41,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 323,
-    brand: "SAINT LAURENT",
-    name: "Rika Mule Sandal",
-    type: "shoes",
-    price: 108685.12,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 324,
-    brand: "ADIDAS ORIGINALS",
-    name: "Samba OG Sneaker",
-    type: "shoes",
-    price: 12286.14,
-    category: "shoes",
-    image: ""
-  },
-  {
-    id: 325,
-    brand: "AMOUAGE",
-    name: "Guidance Eau De Parfum",
-    type: "beauty",
-    price: 37330.97,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 326,
-    brand: "VICTORIA BECKHAM BEAUTY",
-    name: "Colour Wash Bronzer Water Tints",
-    type: "beauty",
-    price: 4347.40,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 327,
-    brand: "NATURA BISSE",
-    name: "Diamond Cocoon Sheer Cream",
-    type: "beauty",
-    price: 25328.36,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 328,
-    brand: "SALTYFACE",
-    name: "Tanning Water",
-    type: "beauty",
-    price: 3989.37,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 329,
-    brand: "SALTYFACE",
-    name: "Brush No. 1",
-    type: "beauty",
-    price: 1964.68,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 330,
-    brand: "ELLIOT COLE",
-    name: "Phases Eau De Parfum",
-    type: "beauty",
-    price: 14648.86,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 331,
-    brand: "MUTHA",
-    name: "Eye Maintenance 6-Peptide Eye Mask",
-    type: "beauty",
-    price: 3591.33,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 332,
-    brand: "BYREDO",
-    name: "Gypsy Water Body Oil",
-    type: "beauty",
-    price: 10395.97,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 333,
-    brand: "111SKIN",
-    name: "Cryo Globes Facial Massage Tool",
-    type: "beauty",
-    price: 10868.51,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 334,
-    brand: "ORIBE",
-    name: "Supershine Smoothing Wax Stick",
-    type: "beauty",
-    price: 4347.40,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 335,
-    brand: "TRONQUE",
-    name: "Firming Butter",
-    type: "beauty",
-    price: 12286.14,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 336,
-    brand: "HERETIC PARFUM",
-    name: "Midnight Toker Body Wash",
-    type: "beauty",
-    price: 3213.30,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 337,
-    brand: "DR. DIAMOND'S METACINE",
-    name: "Instafacial Collection Set",
-    type: "beauty",
-    price: 63793.44,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 338,
-    brand: "PAR OLIVE",
-    name: "Advanced Skin Multivitamin",
-    type: "beauty",
-    price: 7088.16,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 339,
-    brand: "HIGHERDOSE",
-    name: "Full Body Red Light Mat",
-    type: "beauty",
-    price: 113316.05,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 340,
-    brand: "VICTORIA BECKHAM BEAUTY",
-    name: "Posh Lip",
-    type: "beauty",
-    price: 3685.84,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 341,
-    brand: "ALTESSE STUDIO",
-    name: "Beaute Classic Repair & Shine Brush",
-    type: "beauty",
-    price: 30242.81,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 342,
-    brand: "PHILIP B",
-    name: "Detangling Toning Mist With Velvet Oud",
-    type: "beauty",
-    price: 4725.44,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 343,
-    brand: "MELYON",
-    name: "Le Miel Bar Soap",
-    type: "beauty",
-    price: 2646.25,
-    category: "beauty",
-    image: ""
-  },
-  {
-    id: 344,
-    brand: "CROWN ALCHEMIST",
-    name: "Resurfacing Targeted Body Lotion",
-    type: "beauty",
-    price: 4725.44,
-    category: "beauty",
-    image: ""
+    "id": 196,
+    "brand": "MIU MIU",
+    "name": "Cashmere F12 Vest",
+    "type": "top",
+    "price": 169170.75,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 197,
+    "brand": "MIU MIU",
+    "name": "Intreccio Metal Belt",
+    "type": "accessory",
+    "price": 96398.97,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 198,
+    "brand": "MIU MIU",
+    "name": "Straight Leg Trouser",
+    "type": "bottom",
+    "price": 178621.62,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 199,
+    "brand": "MIU MIU",
+    "name": "Check Mini Dress",
+    "type": "dress",
+    "price": 217370.23,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 200,
+    "brand": "MIU MIU",
+    "name": "Ballerine Slingback Flat",
+    "type": "footwear",
+    "price": 121916.35,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 201,
+    "brand": "MIU MIU",
+    "name": "Popeline Top",
+    "type": "top",
+    "price": 101124.41,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 202,
+    "brand": "MIU MIU",
+    "name": "Square Eyeglasses",
+    "type": "accessory",
+    "price": 43379.54,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 203,
+    "brand": "MIU MIU",
+    "name": "Short",
+    "type": "bottom",
+    "price": 137037.77,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 204,
+    "brand": "MIU MIU",
+    "name": "Modellere 55 Pump",
+    "type": "footwear",
+    "price": 153104.25,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 205,
+    "brand": "MIU MIU",
+    "name": "Gabardine Old Skirt",
+    "type": "bottom",
+    "price": 127586.88,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 206,
+    "brand": "MIU MIU",
+    "name": "Gabardine Old Dress",
+    "type": "dress",
+    "price": 283526.38,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 207,
+    "brand": "MIU MIU",
+    "name": "Agnello Scamosciato Cerato Jacket",
+    "type": "outerwear",
+    "price": 727717.75,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 208,
+    "brand": "MIU MIU",
+    "name": "Gabardine Old Pelle Jacket",
+    "type": "outerwear",
+    "price": 519798.38,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 209,
+    "brand": "MIU MIU",
+    "name": "Scamosciato Jacket",
+    "type": "outerwear",
+    "price": 850579.19,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 210,
+    "brand": "MIU MIU",
+    "name": "Macrame Anemone Skirt",
+    "type": "bottom",
+    "price": 463093.09,
+    "category": "miu-miu-style-essential",
+    "image": ""
+  },
+  {
+    "id": 211,
+    "brand": "KHAITE",
+    "name": "Dolos Jacket",
+    "type": "outerwear",
+    "price": 642669.81,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 212,
+    "brand": "ALAÏA",
+    "name": "Round Leg Pant",
+    "type": "bottom",
+    "price": 141763.20,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 213,
+    "brand": "MONCLER",
+    "name": "Sunset Aviator Sunglasses",
+    "type": "accessory",
+    "price": 38276.06,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 214,
+    "brand": "VALENTINO GARAVANI",
+    "name": "Viva Superstar Animalier Small Tote Bag",
+    "type": "accessory",
+    "price": 302428.16,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 215,
+    "brand": "AMINA MUADDI",
+    "name": "Anok 105 Patent Pump",
+    "type": "footwear",
+    "price": 97816.60,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 216,
+    "brand": "ROWEN ROSE",
+    "name": "Long Coat",
+    "type": "outerwear",
+    "price": 221056.08,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 217,
+    "brand": "DEMARSON",
+    "name": "Ivy Tennis Bracelet Set Of 2",
+    "type": "accessory",
+    "price": 42528.96,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 218,
+    "brand": "THE ROW",
+    "name": "Janne Suede Jacket",
+    "type": "outerwear",
+    "price": 557601.88,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 219,
+    "brand": "THE ROW",
+    "name": "Kieran Suede Pant",
+    "type": "bottom",
+    "price": 519798.38,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 220,
+    "brand": "THE ROW",
+    "name": "Marlo 12 Bag",
+    "type": "accessory",
+    "price": 463093.09,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 221,
+    "brand": "THE ROW",
+    "name": "Mens Loafer",
+    "type": "footwear",
+    "price": 103014.59,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 222,
+    "brand": "SAINT LAURENT",
+    "name": "SL 596 Dune Optical Eyeglasses",
+    "type": "accessory",
+    "price": 49144.57,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 223,
+    "brand": "FWRD RENEW",
+    "name": "Chanel Caviar Wallet On Chain",
+    "type": "accessory",
+    "price": 311879.03,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 224,
+    "brand": "MUGLER",
+    "name": "Long Sleeve Mini Dress",
+    "type": "dress",
+    "price": 141763.20,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 225,
+    "brand": "VALENTINO GARAVANI",
+    "name": "Porteque Des Gouttes Earrings",
+    "type": "accessory",
+    "price": 160664.95,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 226,
+    "brand": "FWRD RENEW",
+    "name": "Fendi X Sarah Coleman FF Fish Eye Embroidered Bag",
+    "type": "accessory",
+    "price": 207919.34,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 227,
+    "brand": "ALAÏA",
+    "name": "Cinch Bomber",
+    "type": "outerwear",
+    "price": 686287.00,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 228,
+    "brand": "HELSA",
+    "name": "Devora Polo Bodysuit",
+    "type": "top",
+    "price": 22493.09,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 229,
+    "brand": "EB DENIM",
+    "name": "Aida Loose Bowed Jean",
+    "type": "bottom",
+    "price": 26935.01,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 230,
+    "brand": "BALENCIAGA",
+    "name": "Bathrobe Coat",
+    "type": "outerwear",
+    "price": 467815.53,
+    "category": "future-heirlooms",
+    "image": ""
+  },
+  {
+    "id": 231,
+    "brand": "ACOLDE",
+    "name": "Barton Dress",
+    "type": "dress",
+    "price": 26273.45,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 232,
+    "brand": "ACOLDE",
+    "name": "Nye Relaxed Shorts",
+    "type": "bottom",
+    "price": 15877.48,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 233,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Charissa Shrunken Jacket",
+    "type": "jacket",
+    "price": 28163.62,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 234,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Flight Pant",
+    "type": "bottom",
+    "price": 33834.15,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 235,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Esme Cargo Trouser",
+    "type": "bottom",
+    "price": 24383.27,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 236,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Inex Waffle Tank",
+    "type": "top",
+    "price": 9261.86,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 237,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Gia Bubble Tee",
+    "type": "top",
+    "price": 15877.48,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 238,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Fabien Tee",
+    "type": "top",
+    "price": 13987.30,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 239,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Humanity Baby Waffle Tee",
+    "type": "top",
+    "price": 13987.30,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 240,
+    "brand": "CITIZENS OF HUMANITY",
+    "name": "Baby Waffle Tee",
+    "type": "top",
+    "price": 13987.30,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 241,
+    "brand": "HELSA",
+    "name": "Fairweather Midi Dress in Stretch Cotton Sateen",
+    "type": "dress",
+    "price": 32983.57,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 242,
+    "brand": "HELSA",
+    "name": "Fairweather Midi Dress in Stretch Cotton Sateen",
+    "type": "dress",
+    "price": 32983.57,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 243,
+    "brand": "HELSA",
+    "name": "Fairweather Midi Dress in Stretch Cotton Sateen",
+    "type": "dress",
+    "price": 32983.57,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 244,
+    "brand": "HELSA",
+    "name": "Emmalyn Cowl Gown",
+    "type": "dress",
+    "price": 31093.39,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 245,
+    "brand": "HELSA",
+    "name": "Mayumi Open Side Dress",
+    "type": "dress",
+    "price": 28352.64,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 246,
+    "brand": "HELSA",
+    "name": "Freya Knit Mini Dress",
+    "type": "dress",
+    "price": 25422.87,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 247,
+    "brand": "HELSA",
+    "name": "Tesca Knit Dress",
+    "type": "dress",
+    "price": 37614.50,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 248,
+    "brand": "HELSA",
+    "name": "Lettie Knit Blazer Dress",
+    "type": "dress",
+    "price": 31093.39,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 249,
+    "brand": "HELSA",
+    "name": "Charitra Open Back Dress",
+    "type": "dress",
+    "price": 32208.00,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 250,
+    "brand": "HELSA",
+    "name": "Svetlana Jersey Gown",
+    "type": "dress",
+    "price": 31093.39,
+    "category": "clothing",
+    "image": ""
+  },
+  {
+    "id": 251,
+    "brand": "FWRD RENEW",
+    "name": "Gucci Pochette Shoulder Bag",
+    "type": "bag",
+    "price": 42528.96,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 252,
+    "brand": "FWRD RENEW",
+    "name": "Fendi Zucca Baguette Shoulder Bag",
+    "type": "bag",
+    "price": 160192.41,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 253,
+    "brand": "FWRD RENEW",
+    "name": "Fendi Zucca Baguette Shoulder Bag",
+    "type": "bag",
+    "price": 160192.41,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 254,
+    "brand": "FWRD RENEW",
+    "name": "Fendi Zucca Mama Forever Baguette Shoulder Bag",
+    "type": "bag",
+    "price": 118136.00,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 255,
+    "brand": "FWRD RENEW",
+    "name": "Fendi Mini Chef Shoulder Bag",
+    "type": "bag",
+    "price": 36683.61,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 256,
+    "brand": "FWRD RENEW",
+    "name": "Fendi Mama Baguette Shoulder Bag",
+    "type": "bag",
+    "price": 103959.68,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 257,
+    "brand": "FWRD RENEW",
+    "name": "Gucci Nailhead Pochette Shoulder Bag",
+    "type": "bag",
+    "price": 84585.37,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 258,
+    "brand": "FWRD RENEW",
+    "name": "Louis Vuitton Monogram Match Speedy Bandouliere 25",
+    "type": "bag",
+    "price": 198468.47,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 259,
+    "brand": "FWRD RENEW",
+    "name": "Prada Saffiano Handbag",
+    "type": "bag",
+    "price": 236271.98,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 260,
+    "brand": "FWRD RENEW",
+    "name": "Gucci GG Marmont Shoulder Bag",
+    "type": "bag",
+    "price": 80332.48,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 261,
+    "brand": "FWRD RENEW",
+    "name": "Chanel Nylon Laptop Case",
+    "type": "bag",
+    "price": 94036.25,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 262,
+    "brand": "FWRD RENEW",
+    "name": "Gucci Mini GG Marmont Shoulder Bag",
+    "type": "bag",
+    "price": 112938.01,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 263,
+    "brand": "FWRD RENEW",
+    "name": "Chanel Lambskin Classic Double Flap Bag",
+    "type": "bag",
+    "price": 652110.69,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 264,
+    "brand": "FWRD RENEW",
+    "name": "Chanel Deauville MM Tote Bag",
+    "type": "bag",
+    "price": 302428.16,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 265,
+    "brand": "FWRD RENEW",
+    "name": "Fendi FF 1974 Mini Baguette Shoulder Bag",
+    "type": "bag",
+    "price": 165390.39,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 266,
+    "brand": "FWRD RENEW",
+    "name": "Gucci GG Marmont Shoulder Bag",
+    "type": "bag",
+    "price": 94036.25,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 267,
+    "brand": "FWRD RENEW",
+    "name": "Gucci Neo Vintage Belt Bag",
+    "type": "bag",
+    "price": 75607.04,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 268,
+    "brand": "FWRD RENEW",
+    "name": "Fendi Corduroy Baguette Shoulder Bag",
+    "type": "bag",
+    "price": 103959.68,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 269,
+    "brand": "FWRD RENEW",
+    "name": "Chanel Lambskin Wallet On Chain",
+    "type": "bag",
+    "price": 396936.94,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 270,
+    "brand": "FWRD RENEW",
+    "name": "Gucci Hobo Bag",
+    "type": "bag",
+    "price": 51979.84,
+    "category": "bags",
+    "image": ""
+  },
+  {
+    "id": 271,
+    "brand": "COMME SI",
+    "name": "Striped Tube Sock",
+    "type": "accessory",
+    "price": 2835.26,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 272,
+    "brand": "GIVENCHY",
+    "name": "Double Buckle Belt",
+    "type": "accessory",
+    "price": 45364.22,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 273,
+    "brand": "OLIVER PEOPLES",
+    "name": "Edition 5 Irregular Sunglasses",
+    "type": "accessory",
+    "price": 75134.49,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 274,
+    "brand": "OLIVER PEOPLES",
+    "name": "Leroux Oval Sunglasses",
+    "type": "accessory",
+    "price": 54268.08,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 275,
+    "brand": "OLIVER PEOPLES",
+    "name": "Remmet Irregular Sunglasses",
+    "type": "accessory",
+    "price": 46592.84,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 276,
+    "brand": "OLIVER PEOPLES",
+    "name": "R-18 Pillow Sunglasses",
+    "type": "accessory",
+    "price": 45269.71,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 277,
+    "brand": "OLIVER PEOPLES",
+    "name": "X Jai Sander Cat Eye Sunglasses",
+    "type": "accessory",
+    "price": 69936.51,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 278,
+    "brand": "OLIVER PEOPLES",
+    "name": "X Jai Sander Edition 2 Irregular Sunglasses",
+    "type": "accessory",
+    "price": 75134.49,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 279,
+    "brand": "OLIVER PEOPLES",
+    "name": "X Khaite Oval Sunglasses",
+    "type": "accessory",
+    "price": 55665.68,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 280,
+    "brand": "OLIVER PEOPLES",
+    "name": "X Khaite Wraparound Sunglasses",
+    "type": "accessory",
+    "price": 55665.68,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 281,
+    "brand": "OLIVER PEOPLES",
+    "name": "X Khaite Cat Eye Sunglasses",
+    "type": "accessory",
+    "price": 55665.68,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 282,
+    "brand": "PRADA",
+    "name": "Oval Sunglasses",
+    "type": "accessory",
+    "price": 49522.61,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 283,
+    "brand": "TOM FORD",
+    "name": "Pilot Sunglasses",
+    "type": "accessory",
+    "price": 56322.73,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 284,
+    "brand": "TOM FORD",
+    "name": "Abbey Sunglasses",
+    "type": "accessory",
+    "price": 56705.28,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 285,
+    "brand": "FWRD RENEW",
+    "name": "Chanel Nylon Laptop Case",
+    "type": "accessory",
+    "price": 94036.25,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 286,
+    "brand": "SAINT LAURENT",
+    "name": "Leopard Stole Scarf",
+    "type": "accessory",
+    "price": 73716.86,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 287,
+    "brand": "ALAÏA",
+    "name": "Animalier Sunglasses",
+    "type": "accessory",
+    "price": 43870.01,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 288,
+    "brand": "ALAÏA",
+    "name": "Animalier Pilot Sunglasses",
+    "type": "accessory",
+    "price": 61903.26,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 289,
+    "brand": "ALAÏA",
+    "name": "Animalier Pilot Sunglasses",
+    "type": "accessory",
+    "price": 61903.26,
+    "category": "accessories",
+    "image": ""
+  },
+  {
+    "id": 290,
+    "brand": "AQUAZZURA",
+    "name": "Bloss 85 Mule Sandal",
+    "type": "shoes",
+    "price": 89783.36,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 291,
+    "brand": "AQUAZZURA",
+    "name": "Copacabana 130 Wedge Sandal",
+    "type": "shoes",
+    "price": 122861.44,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 292,
+    "brand": "A.EMERY",
+    "name": "Jalen Sandal",
+    "type": "shoes",
+    "price": 23627.20,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 293,
+    "brand": "A.EMERY",
+    "name": "Jalen Slim Sandal",
+    "type": "shoes",
+    "price": 23627.20,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 294,
+    "brand": "A.EMERY",
+    "name": "Elmer Sandal",
+    "type": "shoes",
+    "price": 24572.29,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 295,
+    "brand": "A.EMERY",
+    "name": "Viola Sandal",
+    "type": "shoes",
+    "price": 21737.02,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 296,
+    "brand": "A.EMERY",
+    "name": "Kinto Sandal",
+    "type": "shoes",
+    "price": 18901.76,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 297,
+    "brand": "A.EMERY",
+    "name": "Viola Sandal",
+    "type": "shoes",
+    "price": 21737.02,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 298,
+    "brand": "A.EMERY",
+    "name": "Paton Sandal",
+    "type": "shoes",
+    "price": 19846.85,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 299,
+    "brand": "A.EMERY",
+    "name": "Leon Sandal",
+    "type": "shoes",
+    "price": 26462.46,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 300,
+    "brand": "A.EMERY",
+    "name": "Adams Low Sneaker",
+    "type": "shoes",
+    "price": 22997.73,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 301,
+    "brand": "JENNI KAYNE",
+    "name": "Lyle Slide",
+    "type": "shoes",
+    "price": 34495.71,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 302,
+    "brand": "JENNI KAYNE",
+    "name": "Lyle Slide",
+    "type": "shoes",
+    "price": 34495.71,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 303,
+    "brand": "KHAITE",
+    "name": "Marfa 55 Mule",
+    "type": "shoes",
+    "price": 111520.38,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 304,
+    "brand": "ON",
+    "name": "Cloudnova Moon Sneaker",
+    "type": "shoes",
+    "price": 18901.76,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 305,
+    "brand": "ON",
+    "name": "Cloudtilt Sneaker",
+    "type": "shoes",
+    "price": 16066.50,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 306,
+    "brand": "ON",
+    "name": "Cloudtilt Sneaker",
+    "type": "shoes",
+    "price": 16066.50,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 307,
+    "brand": "ON",
+    "name": "Cloudrunner 3 Sneaker",
+    "type": "shoes",
+    "price": 15121.41,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 308,
+    "brand": "SAINT LAURENT",
+    "name": "Rika Mule Sandal",
+    "type": "shoes",
+    "price": 108685.12,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 309,
+    "brand": "ADIDAS ORIGINALS",
+    "name": "Samba OG Sneaker",
+    "type": "shoes",
+    "price": 12286.14,
+    "category": "shoes",
+    "image": ""
+  },
+  {
+    "id": 310,
+    "brand": "AMOUAGE",
+    "name": "Guidance Eau De Parfum",
+    "type": "beauty",
+    "price": 37330.97,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 311,
+    "brand": "VICTORIA BECKHAM BEAUTY",
+    "name": "Colour Wash Bronzer Water Tints",
+    "type": "beauty",
+    "price": 4347.40,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 312,
+    "brand": "NATURA BISSE",
+    "name": "Diamond Cocoon Sheer Cream",
+    "type": "beauty",
+    "price": 25328.36,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 313,
+    "brand": "SALTYFACE",
+    "name": "Tanning Water",
+    "type": "beauty",
+    "price": 3989.37,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 314,
+    "brand": "SALTYFACE",
+    "name": "Brush No. 1",
+    "type": "beauty",
+    "price": 1964.68,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 315,
+    "brand": "ELLIOT COLE",
+    "name": "Phases Eau De Parfum",
+    "type": "beauty",
+    "price": 14648.86,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 316,
+    "brand": "MUTHA",
+    "name": "Eye Maintenance 6-Peptide Eye Mask",
+    "type": "beauty",
+    "price": 3591.33,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 317,
+    "brand": "BYREDO",
+    "name": "Gypsy Water Body Oil",
+    "type": "beauty",
+    "price": 10395.97,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 318,
+    "brand": "111SKIN",
+    "name": "Cryo Globes Facial Massage Tool",
+    "type": "beauty",
+    "price": 10868.51,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 319,
+    "brand": "ORIBE",
+    "name": "Supershine Smoothing Wax Stick",
+    "type": "beauty",
+    "price": 4347.40,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 320,
+    "brand": "TRONQUE",
+    "name": "Firming Butter",
+    "type": "beauty",
+    "price": 12286.14,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 321,
+    "brand": "HERETIC PARFUM",
+    "name": "Midnight Toker Body Wash",
+    "type": "beauty",
+    "price": 3213.30,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 322,
+    "brand": "DR. DIAMOND'S METACINE",
+    "name": "Instafacial Collection Set",
+    "type": "beauty",
+    "price": 63793.44,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 323,
+    "brand": "PAR OLIVE",
+    "name": "Advanced Skin Multivitamin",
+    "type": "beauty",
+    "price": 7088.16,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 324,
+    "brand": "HIGHERDOSE",
+    "name": "Full Body Red Light Mat",
+    "type": "beauty",
+    "price": 113316.05,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 325,
+    "brand": "VICTORIA BECKHAM BEAUTY",
+    "name": "Posh Lip",
+    "type": "beauty",
+    "price": 3685.84,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 326,
+    "brand": "ALTESSE STUDIO",
+    "name": "Beaute Classic Repair & Shine Brush",
+    "type": "beauty",
+    "price": 30242.81,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 327,
+    "brand": "PHILIP B",
+    "name": "Detangling Toning Mist With Velvet Oud",
+    "type": "beauty",
+    "price": 4725.44,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 328,
+    "brand": "MELYON",
+    "name": "Le Miel Bar Soap",
+    "type": "beauty",
+    "price": 2646.25,
+    "category": "beauty",
+    "image": ""
+  },
+  {
+    "id": 329,
+    "brand": "CROWN ALCHEMIST",
+    "name": "Resurfacing Targeted Body Lotion",
+    "type": "beauty",
+    "price": 4725.44,
+    "category": "beauty",
+    "image": ""
   }
 ];
 export default products;
