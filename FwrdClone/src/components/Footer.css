@@ -71,11 +71,15 @@
 
 /* MAIN GRID */
 .footer-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    /* FIXED */
     padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 24px;
-    align-items: start;
 }
 
 /* COLUMN */

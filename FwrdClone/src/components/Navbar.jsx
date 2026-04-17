@@ -31,8 +31,7 @@ const Navbar = ({ toggleTheme, theme }) => {
       {/* Top Nav */}
       <div className="navbar-top">
         <div className="navbar-left">
-          <span>Womens</span>
-          <span>Mens</span>
+         
         </div>
 
         <div className="navbar-center">

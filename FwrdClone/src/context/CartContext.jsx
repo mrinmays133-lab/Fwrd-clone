@@ -7,33 +7,44 @@ export const CartContext = createContext();
 const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
+  // Helper: Create unique cart item ID based on product + size + color
+  const getCartItemId = (product) => {
+    return `${product.id}-${product.selectedSize}-${product.selectedColor}`;
+  };
+
   // ADD TO CART
   const addToCart = (product) => {
     setCart((prev) => {
-      const exists = prev.find((item) => item.id === product.id);
+      // Treat products with different sizes/colors as different cart items
+      const cartItemId = getCartItemId(product);
+      const exists = prev.find((item) => getCartItemId(item) === cartItemId);
 
       if (exists) {
         return prev.map((item) =>
-          item.id === product.id
+          getCartItemId(item) === cartItemId
             ? { ...item, quantity: item.quantity + 1 }
             : item
         );
       }
 
-      return [...prev, { ...product, quantity: 1 }];
+      return [...prev, { ...product, quantity: 1, cartItemId }];
     });
   };
 
-  // REMOVE ITEM (fixed)
-  const removeItem = (id) => {
-    setCart((prev) => prev.filter((item) => item.id !== id));
+  // REMOVE ITEM
+  const removeItem = (cartItemId) => {
+    setCart((prev) => prev.filter((item) => item.cartItemId !== cartItemId));
   };
 
-  // UPDATE QUANTITY (fixed)
-  const updateQty = (id, qty) => {
+  // UPDATE QUANTITY
+  const updateQty = (cartItemId, qty) => {
+    if (qty <= 0) {
+      removeItem(cartItemId);
+      return;
+    }
     setCart((prev) =>
       prev.map((item) =>
-        item.id === id ? { ...item, quantity: qty } : item
+        item.cartItemId === cartItemId ? { ...item, quantity: qty } : item
       )
     );
   };
