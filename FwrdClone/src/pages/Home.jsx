@@ -84,9 +84,10 @@ const shops = [
     image: "https://is4.revolveassets.com/images/up/2026/April/041326_FW_Trends_FutureHeirlooms.jpg",
     title: "Future Heirlooms",
     description:
-      "Today’s buys, tomorrow’s staples. These are the investment buys you’ll reach for time and time again.",
+      "Today's buys, tomorrow's staples. These are the investment buys you'll reach for time and time again.",
     category: "future-heirlooms"
   }
+
 ];
 
 const Home = () => {
