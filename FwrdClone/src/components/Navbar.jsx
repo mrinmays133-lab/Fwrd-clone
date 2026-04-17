@@ -30,9 +30,13 @@ const Navbar = ({ toggleTheme, theme }) => {
 
       {/* Top Nav - Logo & Search */}
       <div className="navbar-top">
-        <div className="navbar-logo">
+        <div className="navbar-left">
+          {/* Left side spacer or future elements */}
+        </div>
+
+        <div className="navbar-center">
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-            LUXION
+            <h1>LUXION</h1>
           </Link>
         </div>
 
