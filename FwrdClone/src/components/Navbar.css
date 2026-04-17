@@ -174,3 +174,35 @@
   text-decoration: none;
   color: var(--text-color);
 }
+
+/* 🔥 PROFILE SECTION ADDED */
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+/* PROFILE PIC (circle) */
+.profile-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;  
+  object-fit: cover;   
+}
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.profile span {
+  font-size: 12px;
+}
+
+.logout-btn {
+  font-size: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+}
