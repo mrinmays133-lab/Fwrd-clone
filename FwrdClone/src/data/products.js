@@ -2076,7 +2076,7 @@ const products = [
     "type": "dress",
     "price": 26273.45,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AGOL-WD14_V1.jpg"
   },
   {
     "id": 232,
@@ -2085,7 +2085,7 @@ const products = [
     "type": "bottom",
     "price": 15877.48,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AGOL-WF217_V1.jpg"
   },
   {
     "id": 233,
@@ -2094,7 +2094,7 @@ const products = [
     "type": "jacket",
     "price": 28163.62,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WO148_V1.jpg"
   },
   {
     "id": 234,
@@ -2103,7 +2103,7 @@ const products = [
     "type": "bottom",
     "price": 33834.15,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WP223_V1.jpg"
   },
   {
     "id": 235,
@@ -2112,7 +2112,7 @@ const products = [
     "type": "bottom",
     "price": 24383.27,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WP226_V1.jpg"
   },
   {
     "id": 236,
@@ -2121,7 +2121,7 @@ const products = [
     "type": "top",
     "price": 9261.86,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WS426_V1.jpg"
   },
   {
     "id": 237,
@@ -2130,7 +2130,7 @@ const products = [
     "type": "top",
     "price": 15877.48,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WS427_V1.jpg"
   },
   {
     "id": 238,
@@ -2139,7 +2139,7 @@ const products = [
     "type": "top",
     "price": 13987.30,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WS432_V1.jpg"
   },
   {
     "id": 239,
@@ -2148,7 +2148,7 @@ const products = [
     "type": "top",
     "price": 13987.30,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WS434_V1.jpg"
   },
   {
     "id": 240,
@@ -2157,7 +2157,7 @@ const products = [
     "type": "top",
     "price": 13987.30,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WS435_V1.jpg"
   },
   {
     "id": 241,
@@ -2166,7 +2166,7 @@ const products = [
     "type": "dress",
     "price": 32983.57,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD256_V1.jpg"
   },
   {
     "id": 242,
@@ -2175,7 +2175,7 @@ const products = [
     "type": "dress",
     "price": 32983.57,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD257_V1.jpg"
   },
   {
     "id": 243,
@@ -2184,7 +2184,7 @@ const products = [
     "type": "dress",
     "price": 32983.57,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD258_V1.jpg"
   },
   {
     "id": 244,
@@ -2193,7 +2193,7 @@ const products = [
     "type": "dress",
     "price": 31093.39,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD259_V1.jpg"
   },
   {
     "id": 245,
@@ -2202,7 +2202,7 @@ const products = [
     "type": "dress",
     "price": 28352.64,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD261_V1.jpg"
   },
   {
     "id": 246,
@@ -2211,7 +2211,7 @@ const products = [
     "type": "dress",
     "price": 25422.87,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD263_V1.jpg"
   },
   {
     "id": 247,
@@ -2220,7 +2220,7 @@ const products = [
     "type": "dress",
     "price": 37614.50,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD264_V1.jpg"
   },
   {
     "id": 248,
@@ -2229,7 +2229,7 @@ const products = [
     "type": "dress",
     "price": 31093.39,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD266_V1.jpg"
   },
   {
     "id": 249,
@@ -2238,7 +2238,7 @@ const products = [
     "type": "dress",
     "price": 32208.00,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD267_V1.jpg"
   },
   {
     "id": 250,
@@ -2247,7 +2247,7 @@ const products = [
     "type": "dress",
     "price": 31093.39,
     "category": "clothing",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD268_V1.jpg"
   },
   {
     "id": 251,
@@ -2265,7 +2265,7 @@ const products = [
     "type": "bag",
     "price": 160192.41,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8021_V1.jpg "
   },
   {
     "id": 253,
@@ -2274,7 +2274,7 @@ const products = [
     "type": "bag",
     "price": 160192.41,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8022_V1.jpg "
   },
   {
     "id": 254,
@@ -2283,7 +2283,7 @@ const products = [
     "type": "bag",
     "price": 118136.00,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8023_V1.jpg "
   },
   {
     "id": 255,
@@ -2292,7 +2292,7 @@ const products = [
     "type": "bag",
     "price": 36683.61,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8025_V1.jpg "
   },
   {
     "id": 256,
@@ -2301,7 +2301,7 @@ const products = [
     "type": "bag",
     "price": 103959.68,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8026_V1.jpg "
   },
   {
     "id": 257,
@@ -2310,7 +2310,7 @@ const products = [
     "type": "bag",
     "price": 84585.37,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8030_V1.jpg "
   },
   {
     "id": 258,
@@ -2319,7 +2319,7 @@ const products = [
     "type": "bag",
     "price": 198468.47,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8031_V1.jpg"
   },
   {
     "id": 259,
@@ -2328,7 +2328,7 @@ const products = [
     "type": "bag",
     "price": 236271.98,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8035_V1.jpg"
   },
   {
     "id": 260,
@@ -2337,7 +2337,7 @@ const products = [
     "type": "bag",
     "price": 80332.48,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8036_V1.jpg"
   },
   {
     "id": 261,
@@ -2346,7 +2346,7 @@ const products = [
     "type": "bag",
     "price": 94036.25,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8042_V1.jpg"
   },
   {
     "id": 262,
@@ -2355,7 +2355,7 @@ const products = [
     "type": "bag",
     "price": 112938.01,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8043_V1.jpg"
   },
   {
     "id": 263,
@@ -2364,7 +2364,7 @@ const products = [
     "type": "bag",
     "price": 652110.69,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8046_V1.jpg"
   },
   {
     "id": 264,
@@ -2382,7 +2382,7 @@ const products = [
     "type": "bag",
     "price": 165390.39,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8047_V1.jpg"
   },
   {
     "id": 266,
@@ -2391,7 +2391,7 @@ const products = [
     "type": "bag",
     "price": 94036.25,
     "category": "bags",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8050_V1.jpg"
   },
   {
     "id": 267,
@@ -2400,7 +2400,7 @@ const products = [
     "type": "bag",
     "price": 75607.04,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8060_V1.jpg "
   },
   {
     "id": 268,
@@ -2409,7 +2409,7 @@ const products = [
     "type": "bag",
     "price": 103959.68,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8062_V1.jpg "
   },
   {
     "id": 269,
@@ -2418,7 +2418,7 @@ const products = [
     "type": "bag",
     "price": 396936.94,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8067_V1.jpg "
   },
   {
     "id": 270,
@@ -2427,7 +2427,7 @@ const products = [
     "type": "bag",
     "price": 51979.84,
     "category": "bags",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/p/FNEF-WY8069_V1.jpg "
   },
   {
     "id": 271,
@@ -2436,7 +2436,7 @@ const products = [
     "type": "accessory",
     "price": 2835.26,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/CESF-WA53_V1.jpg"
   },
   {
     "id": 272,
@@ -2445,7 +2445,7 @@ const products = [
     "type": "accessory",
     "price": 45364.22,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/GIVE-WA164_V1.jpg"
   },
   {
     "id": 273,
@@ -2454,7 +2454,7 @@ const products = [
     "type": "accessory",
     "price": 75134.49,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG130_V1.jpg"
   },
   {
     "id": 274,
@@ -2463,7 +2463,7 @@ const products = [
     "type": "accessory",
     "price": 54268.08,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG131_V1.jpg"
   },
   {
     "id": 275,
@@ -2472,7 +2472,7 @@ const products = [
     "type": "accessory",
     "price": 46592.84,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG132_V1.jpg"
   },
   {
     "id": 276,
@@ -2481,7 +2481,7 @@ const products = [
     "type": "accessory",
     "price": 45269.71,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG132_V1.jpg"
   },
   {
     "id": 277,
@@ -2490,7 +2490,7 @@ const products = [
     "type": "accessory",
     "price": 69936.51,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG135_V1.jpg"
   },
   {
     "id": 278,
@@ -2499,7 +2499,7 @@ const products = [
     "type": "accessory",
     "price": 75134.49,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG136_V1.jpg"
   },
   {
     "id": 279,
@@ -2508,7 +2508,7 @@ const products = [
     "type": "accessory",
     "price": 55665.68,
     "category": "accessories",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG138_V1.jpg "
   },
   {
     "id": 280,
@@ -2517,7 +2517,7 @@ const products = [
     "type": "accessory",
     "price": 55665.68,
     "category": "accessories",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG139_V1.jpg "
   },
   {
     "id": 281,
@@ -2526,7 +2526,7 @@ const products = [
     "type": "accessory",
     "price": 55665.68,
     "category": "accessories",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/45s/OPEO-WG140_V1.jpg "
   },
   {
     "id": 282,
@@ -2535,7 +2535,7 @@ const products = [
     "type": "accessory",
     "price": 49522.61,
     "category": "accessories",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/45s/PRAD-WG67_V1.jpg "
   },
   {
     "id": 283,
@@ -2544,7 +2544,7 @@ const products = [
     "type": "accessory",
     "price": 56322.73,
     "category": "accessories",
-    "image": ""
+    "image": " https://is4.fwrdassets.com/images/p/fw/45s/TFOF-WG83_V1.jpg "
   },
   {
     "id": 284,
@@ -2553,7 +2553,7 @@ const products = [
     "type": "accessory",
     "price": 56705.28,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/TFOF-WG99_V1.jpg"
   },
   {
     "id": 285,
@@ -2562,7 +2562,7 @@ const products = [
     "type": "accessory",
     "price": 94036.25,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/FNEF-WY8042_V1.jpg"
   },
   {
     "id": 286,
@@ -2571,7 +2571,7 @@ const products = [
     "type": "accessory",
     "price": 73716.86,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/SLAU-WA512_V1.jpg"
   },
   {
     "id": 287,
@@ -2580,7 +2580,7 @@ const products = [
     "type": "accessory",
     "price": 43870.01,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/ALIA-WG30_V1.jpg"
   },
   {
     "id": 288,
@@ -2589,7 +2589,7 @@ const products = [
     "type": "accessory",
     "price": 61903.26,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/ALIA-WG31_V1.jpg"
   },
   {
     "id": 289,
@@ -2598,7 +2598,7 @@ const products = [
     "type": "accessory",
     "price": 61903.26,
     "category": "accessories",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/45s/ALIA-WG32_V1.jpg"
   },
   {
     "id": 290,
@@ -2607,7 +2607,7 @@ const products = [
     "type": "shoes",
     "price": 89783.36,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AAZZ-WZ472_V1.jpg"
   },
   {
     "id": 291,
@@ -2616,7 +2616,7 @@ const products = [
     "type": "shoes",
     "price": 122861.44,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AAZZ-WZ473_V1.jpg"
   },
   {
     "id": 292,
@@ -2625,7 +2625,7 @@ const products = [
     "type": "shoes",
     "price": 23627.20,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ193_V1.jpg"
   },
   {
     "id": 293,
@@ -2634,7 +2634,7 @@ const products = [
     "type": "shoes",
     "price": 23627.20,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ195_V1.jpg"
   },
   {
     "id": 294,
@@ -2643,7 +2643,7 @@ const products = [
     "type": "shoes",
     "price": 24572.29,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ197_V1.jpg"
   },
   {
     "id": 295,
@@ -2652,7 +2652,7 @@ const products = [
     "type": "shoes",
     "price": 21737.02,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ198_V1.jpg"
   },
   {
     "id": 296,
@@ -2661,7 +2661,7 @@ const products = [
     "type": "shoes",
     "price": 18901.76,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ200_V1.jpg"
   },
   {
     "id": 297,
@@ -2670,7 +2670,7 @@ const products = [
     "type": "shoes",
     "price": 21737.02,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ201_V1.jpg"
   },
   {
     "id": 298,
@@ -2679,7 +2679,7 @@ const products = [
     "type": "shoes",
     "price": 19846.85,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ202_V1.jpg"
   },
   {
     "id": 299,
@@ -2688,7 +2688,7 @@ const products = [
     "type": "shoes",
     "price": 26462.46,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ203_V1.jpg"
   },
   {
     "id": 300,
@@ -2697,7 +2697,7 @@ const products = [
     "type": "shoes",
     "price": 22997.73,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ204_V1.jpg"
   },
   {
     "id": 301,
@@ -2706,7 +2706,7 @@ const products = [
     "type": "shoes",
     "price": 34495.71,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/JKAY-WZ54_V1.jpg"
   },
   {
     "id": 302,
@@ -2715,7 +2715,7 @@ const products = [
     "type": "shoes",
     "price": 34495.71,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/JKAY-WZ55_V1.jpg"
   },
   {
     "id": 303,
@@ -2724,7 +2724,7 @@ const products = [
     "type": "shoes",
     "price": 111520.38,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/KTAH-WZ283_V1.jpg"
   },
   {
     "id": 304,
@@ -2733,7 +2733,7 @@ const products = [
     "type": "shoes",
     "price": 18901.76,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ293_V1.jpg"
   },
   {
     "id": 305,
@@ -2742,7 +2742,7 @@ const products = [
     "type": "shoes",
     "price": 16066.50,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ295_V1.jpg"
   },
   {
     "id": 306,
@@ -2751,7 +2751,7 @@ const products = [
     "type": "shoes",
     "price": 16066.50,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ296_V1.jpg"
   },
   {
     "id": 307,
@@ -2760,7 +2760,7 @@ const products = [
     "type": "shoes",
     "price": 15121.41,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ297_V1.jpg"
   },
   {
     "id": 308,
@@ -2769,7 +2769,7 @@ const products = [
     "type": "shoes",
     "price": 108685.12,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/SLAU-WZ1606_V1.jpg"
   },
   {
     "id": 309,
@@ -2778,7 +2778,7 @@ const products = [
     "type": "shoes",
     "price": 12286.14,
     "category": "shoes",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ADIO-WZ206_V1.jpg"
   },
   {
     "id": 310,
@@ -2787,7 +2787,7 @@ const products = [
     "type": "beauty",
     "price": 37330.97,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AUAG-WU7_V1.jpg"
   },
   {
     "id": 311,
@@ -2796,7 +2796,7 @@ const products = [
     "type": "beauty",
     "price": 4347.40,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/VEAF-WU229_V1.jpg"
   },
   {
     "id": 312,
@@ -2805,7 +2805,7 @@ const products = [
     "type": "beauty",
     "price": 25328.36,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/NSSF-WU1_V1.jpg"
   },
   {
     "id": 313,
@@ -2814,7 +2814,7 @@ const products = [
     "type": "beauty",
     "price": 3989.37,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/SYFF-WU2_V1.jpg"
   },
   {
     "id": 314,
@@ -2823,7 +2823,7 @@ const products = [
     "type": "beauty",
     "price": 1964.68,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/SYFF-WU5_V1.jpg"
   },
   {
     "id": 315,
@@ -2832,7 +2832,7 @@ const products = [
     "type": "beauty",
     "price": 14648.86,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/EIOT-WU6_V1.jpg"
   },
   {
     "id": 316,
@@ -2841,7 +2841,7 @@ const products = [
     "type": "beauty",
     "price": 3591.33,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/MTHA-WU16_V1.jpg"
   },
   {
     "id": 317,
@@ -2850,7 +2850,7 @@ const products = [
     "type": "beauty",
     "price": 10395.97,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/BYRF-WU70_V1.jpg"
   },
   {
     "id": 318,
@@ -2859,7 +2859,7 @@ const products = [
     "type": "beauty",
     "price": 10868.51,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/111F-WU28_V1.jpg"
   },
   {
     "id": 319,
@@ -2868,7 +2868,7 @@ const products = [
     "type": "beauty",
     "price": 4347.40,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ORIB-WU310_V1.jpg"
   },
   {
     "id": 320,
@@ -2877,7 +2877,7 @@ const products = [
     "type": "beauty",
     "price": 12286.14,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/TNQF-WU2_V1.jpg"
   },
   {
     "id": 321,
@@ -2886,7 +2886,7 @@ const products = [
     "type": "beauty",
     "price": 3213.30,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HRFF-WU42_V1.jpg"
   },
   {
     "id": 322,
@@ -2895,7 +2895,7 @@ const products = [
     "type": "beauty",
     "price": 63793.44,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/DCIF-WU10_V1.jpg"
   },
   {
     "id": 323,
@@ -2904,7 +2904,7 @@ const products = [
     "type": "beauty",
     "price": 7088.16,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/POLI-WU9_V1.jpg"
   },
   {
     "id": 324,
@@ -2913,7 +2913,7 @@ const products = [
     "type": "beauty",
     "price": 113316.05,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HDOR-WU19_V1.jpg"
   },
   {
     "id": 325,
@@ -2922,7 +2922,7 @@ const products = [
     "type": "beauty",
     "price": 3685.84,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/VEAF-WU228_V1.jpg"
   },
   {
     "id": 326,
@@ -2931,7 +2931,7 @@ const products = [
     "type": "beauty",
     "price": 30242.81,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ASER-WU1_V1.jpg"
   },
   {
     "id": 327,
@@ -2940,7 +2940,7 @@ const products = [
     "type": "beauty",
     "price": 4725.44,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/PHIB-WU22_V1.jpg"
   },
   {
     "id": 328,
@@ -2949,7 +2949,7 @@ const products = [
     "type": "beauty",
     "price": 2646.25,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/MYOX-WU10_V1.jpg"
   },
   {
     "id": 329,
@@ -2958,7 +2958,7 @@ const products = [
     "type": "beauty",
     "price": 4725.44,
     "category": "beauty",
-    "image": ""
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/GWAC-WU41_V1.jpg"
   }
 ];
 export default products;
