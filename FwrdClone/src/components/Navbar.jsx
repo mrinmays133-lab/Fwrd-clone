@@ -49,6 +49,9 @@ const Navbar = ({ toggleTheme, theme }) => {
           <span>|</span>
           <span>INR</span>
 
+          <Link to="/login" className="login-link">Sign In</Link>
+
+
           {/* 🔥 CONDITIONAL UI */}
           {user ? (
             <>
@@ -68,11 +71,14 @@ const Navbar = ({ toggleTheme, theme }) => {
           ) : (
             <Link to="/login">Sign In</Link>
           )}
+
         </div>
       </div>
 
       {/* Top Nav */}
       <div className="navbar-top">
+
+        {/* Left */}
         <div className="navbar-left">
           <span></span>
         </div>
@@ -83,7 +89,11 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </div>
 
+        {/* Right */}
+
         <div className="navbar-right">
+
+          {/* Search */}
           <div className="search-bar">
             <input
               type="text"
@@ -94,10 +104,12 @@ const Navbar = ({ toggleTheme, theme }) => {
             />
           </div>
 
+          {/* Theme Toggle */}
           <button onClick={toggleTheme} className="theme-toggle">
             {theme === "light" ? "🌙" : "☀️"}
           </button>
 
+          {/* Cart */}
           <Link to="/cart">My Bag ({itemCount})</Link>
         </div>
       </div>
