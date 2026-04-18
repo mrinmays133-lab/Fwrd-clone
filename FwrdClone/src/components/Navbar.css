@@ -32,12 +32,16 @@
   color: var(--muted-text);
   transition: all 0.3s ease;
   cursor: pointer;
+
 }
 
 .mini-right a:hover,
 .login-link:hover {
   color: var(--text-color);
   text-decoration: underline;
+  
+
+
 }
 
 .navbar-top {
@@ -163,9 +167,9 @@
 }
 
 .theme-toggle {
-  background: transparent;
-  border: 1px solid var(--border-color);
-  font-size: 18px;
+  background: none;
+  border: none;
+  font-size: 20px;
   cursor: pointer;
   padding: 8px 10px;
   border-radius: 8px;
@@ -191,7 +195,7 @@
 
 .navbar-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 40px;
   list-style: none;
   max-width: 1200px;

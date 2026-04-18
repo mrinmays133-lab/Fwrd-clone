@@ -121,7 +121,7 @@ const ProductDetail = () => {
           >
             {addedToCart ? "✓ Added to Cart" : "ADD TO CART"}
           </button>
-          <button className="wish-btn">♡ Add To Wish List</button>
+          {/* <button className="wish-btn">♡ Add To Wish List</button> */}
         </div>
 
         {/* SHIPPING INFO */}
