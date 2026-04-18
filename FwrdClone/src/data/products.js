@@ -2608,6 +2608,359 @@ const products = [
     "price": 89783.36,
     "category": "shoes",
     "image": "https://is4.fwrdassets.com/images/p/fw/p/AAZZ-WZ472_V1.jpg"
+
+  },
+  {
+    "id": 291,
+    "brand": "AQUAZZURA",
+    "name": "Copacabana 130 Wedge Sandal",
+    "type": "shoes",
+    "price": 122861.44,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AAZZ-WZ473_V1.jpg"
+  },
+  {
+    "id": 292,
+    "brand": "A.EMERY",
+    "name": "Jalen Sandal",
+    "type": "shoes",
+    "price": 23627.20,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ193_V1.jpg"
+  },
+  {
+    "id": 293,
+    "brand": "A.EMERY",
+    "name": "Jalen Slim Sandal",
+    "type": "shoes",
+    "price": 23627.20,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ195_V1.jpg"
+  },
+  {
+    "id": 294,
+    "brand": "A.EMERY",
+    "name": "Elmer Sandal",
+    "type": "shoes",
+    "price": 24572.29,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ197_V1.jpg"
+  },
+  {
+    "id": 295,
+    "brand": "A.EMERY",
+    "name": "Viola Sandal",
+    "type": "shoes",
+    "price": 21737.02,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ198_V1.jpg"
+  },
+  {
+    "id": 296,
+    "brand": "A.EMERY",
+    "name": "Kinto Sandal",
+    "type": "shoes",
+    "price": 18901.76,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ200_V1.jpg"
+  },
+  {
+    "id": 297,
+    "brand": "A.EMERY",
+    "name": "Viola Sandal",
+    "type": "shoes",
+    "price": 21737.02,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ201_V1.jpg"
+  },
+  {
+    "id": 298,
+    "brand": "A.EMERY",
+    "name": "Paton Sandal",
+    "type": "shoes",
+    "price": 19846.85,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ202_V1.jpg"
+  },
+  {
+    "id": 299,
+    "brand": "A.EMERY",
+    "name": "Leon Sandal",
+    "type": "shoes",
+    "price": 26462.46,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ203_V1.jpg"
+  },
+  {
+    "id": 300,
+    "brand": "A.EMERY",
+    "name": "Adams Low Sneaker",
+    "type": "shoes",
+    "price": 22997.73,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AEMF-WZ204_V1.jpg"
+  },
+  {
+    "id": 301,
+    "brand": "JENNI KAYNE",
+    "name": "Lyle Slide",
+    "type": "shoes",
+    "price": 34495.71,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/JKAY-WZ54_V1.jpg"
+  },
+  {
+    "id": 302,
+    "brand": "JENNI KAYNE",
+    "name": "Lyle Slide",
+    "type": "shoes",
+    "price": 34495.71,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/JKAY-WZ55_V1.jpg"
+  },
+  {
+    "id": 303,
+    "brand": "KHAITE",
+    "name": "Marfa 55 Mule",
+    "type": "shoes",
+    "price": 111520.38,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/KTAH-WZ283_V1.jpg"
+  },
+  {
+    "id": 304,
+    "brand": "ON",
+    "name": "Cloudnova Moon Sneaker",
+    "type": "shoes",
+    "price": 18901.76,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ293_V1.jpg"
+  },
+  {
+    "id": 305,
+    "brand": "ON",
+    "name": "Cloudtilt Sneaker",
+    "type": "shoes",
+    "price": 16066.50,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ295_V1.jpg"
+  },
+  {
+    "id": 306,
+    "brand": "ON",
+    "name": "Cloudtilt Sneaker",
+    "type": "shoes",
+    "price": 16066.50,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ296_V1.jpg"
+  },
+  {
+    "id": 307,
+    "brand": "ON",
+    "name": "Cloudrunner 3 Sneaker",
+    "type": "shoes",
+    "price": 15121.41,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ONF-WZ297_V1.jpg"
+  },
+  {
+    "id": 308,
+    "brand": "SAINT LAURENT",
+    "name": "Rika Mule Sandal",
+    "type": "shoes",
+    "price": 108685.12,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/SLAU-WZ1606_V1.jpg"
+  },
+  {
+    "id": 309,
+    "brand": "ADIDAS ORIGINALS",
+    "name": "Samba OG Sneaker",
+    "type": "shoes",
+    "price": 12286.14,
+    "category": "shoes",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ADIO-WZ206_V1.jpg"
+  },
+  {
+    "id": 310,
+    "brand": "AMOUAGE",
+    "name": "Guidance Eau De Parfum",
+    "type": "beauty",
+    "price": 37330.97,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/AUAG-WU7_V1.jpg"
+  },
+  {
+    "id": 311,
+    "brand": "VICTORIA BECKHAM BEAUTY",
+    "name": "Colour Wash Bronzer Water Tints",
+    "type": "beauty",
+    "price": 4347.40,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/VEAF-WU229_V1.jpg"
+  },
+  {
+    "id": 312,
+    "brand": "NATURA BISSE",
+    "name": "Diamond Cocoon Sheer Cream",
+    "type": "beauty",
+    "price": 25328.36,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/NSSF-WU1_V1.jpg"
+  },
+  {
+    "id": 313,
+    "brand": "SALTYFACE",
+    "name": "Tanning Water",
+    "type": "beauty",
+    "price": 3989.37,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/SYFF-WU2_V1.jpg"
+  },
+  {
+    "id": 314,
+    "brand": "SALTYFACE",
+    "name": "Brush No. 1",
+    "type": "beauty",
+    "price": 1964.68,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/SYFF-WU5_V1.jpg"
+  },
+  {
+    "id": 315,
+    "brand": "ELLIOT COLE",
+    "name": "Phases Eau De Parfum",
+    "type": "beauty",
+    "price": 14648.86,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/EIOT-WU6_V1.jpg"
+  },
+  {
+    "id": 316,
+    "brand": "MUTHA",
+    "name": "Eye Maintenance 6-Peptide Eye Mask",
+    "type": "beauty",
+    "price": 3591.33,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/MTHA-WU16_V1.jpg"
+  },
+  {
+    "id": 317,
+    "brand": "BYREDO",
+    "name": "Gypsy Water Body Oil",
+    "type": "beauty",
+    "price": 10395.97,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/BYRF-WU70_V1.jpg"
+  },
+  {
+    "id": 318,
+    "brand": "111SKIN",
+    "name": "Cryo Globes Facial Massage Tool",
+    "type": "beauty",
+    "price": 10868.51,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/111F-WU28_V1.jpg"
+  },
+  {
+    "id": 319,
+    "brand": "ORIBE",
+    "name": "Supershine Smoothing Wax Stick",
+    "type": "beauty",
+    "price": 4347.40,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ORIB-WU310_V1.jpg"
+  },
+  {
+    "id": 320,
+    "brand": "TRONQUE",
+    "name": "Firming Butter",
+    "type": "beauty",
+    "price": 12286.14,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/TNQF-WU2_V1.jpg"
+  },
+  {
+    "id": 321,
+    "brand": "HERETIC PARFUM",
+    "name": "Midnight Toker Body Wash",
+    "type": "beauty",
+    "price": 3213.30,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HRFF-WU42_V1.jpg"
+  },
+  {
+    "id": 322,
+    "brand": "DR. DIAMOND'S METACINE",
+    "name": "Instafacial Collection Set",
+    "type": "beauty",
+    "price": 63793.44,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/DCIF-WU10_V1.jpg"
+  },
+  {
+    "id": 323,
+    "brand": "PAR OLIVE",
+    "name": "Advanced Skin Multivitamin",
+    "type": "beauty",
+    "price": 7088.16,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/POLI-WU9_V1.jpg"
+  },
+  {
+    "id": 324,
+    "brand": "HIGHERDOSE",
+    "name": "Full Body Red Light Mat",
+    "type": "beauty",
+    "price": 113316.05,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/HDOR-WU19_V1.jpg"
+  },
+  {
+    "id": 325,
+    "brand": "VICTORIA BECKHAM BEAUTY",
+    "name": "Posh Lip",
+    "type": "beauty",
+    "price": 3685.84,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/VEAF-WU228_V1.jpg"
+  },
+  {
+    "id": 326,
+    "brand": "ALTESSE STUDIO",
+    "name": "Beaute Classic Repair & Shine Brush",
+    "type": "beauty",
+    "price": 30242.81,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/ASER-WU1_V1.jpg"
+  },
+  {
+    "id": 327,
+    "brand": "PHILIP B",
+    "name": "Detangling Toning Mist With Velvet Oud",
+    "type": "beauty",
+    "price": 4725.44,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/PHIB-WU22_V1.jpg"
+  },
+  {
+    "id": 328,
+    "brand": "MELYON",
+    "name": "Le Miel Bar Soap",
+    "type": "beauty",
+    "price": 2646.25,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/MYOX-WU10_V1.jpg"
+  },
+  {
+    "id": 329,
+    "brand": "CROWN ALCHEMIST",
+    "name": "Resurfacing Targeted Body Lotion",
+    "type": "beauty",
+    "price": 4725.44,
+    "category": "beauty",
+    "image": "https://is4.fwrdassets.com/images/p/fw/p/GWAC-WU41_V1.jpg"
+
   }
 ]
 export default products;
