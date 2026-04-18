@@ -2608,6 +2608,7 @@ const products = [
     "price": 89783.36,
     "category": "shoes",
     "image": "https://is4.fwrdassets.com/images/p/fw/p/AAZZ-WZ472_V1.jpg"
+
   },
   {
     "id": 291,
@@ -2959,6 +2960,7 @@ const products = [
     "price": 4725.44,
     "category": "beauty",
     "image": "https://is4.fwrdassets.com/images/p/fw/p/GWAC-WU41_V1.jpg"
+
   }
-];
+]
 export default products;

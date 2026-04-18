@@ -12,53 +12,78 @@
 .navbar-mini {
   display: flex;
   justify-content: flex-end;
-  padding: 5px 40px;
+  padding: 8px 40px;
   font-size: 12px;
   border-bottom: 1px solid var(--border-color);
   background-color: var(--navbar-bg);
-  color: var(--text-color);
+  color: var(--muted-text);
+  letter-spacing: 0.5px;
 }
 
 .mini-right {
   display: flex;
-  gap: 15px;
+  gap: 12px;
+  align-items: center;
 }
 
 .mini-right a,
 .login-link {
   text-decoration: none;
-  color: var(--text-color);
-  transition: opacity 0.2s;
+  color: var(--muted-text);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
 }
 
 .mini-right a:hover,
 .login-link:hover {
+  color: var(--text-color);
   text-decoration: underline;
+  
+
+
 }
 
 .navbar-top {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 15px 60px;
+  padding: 20px 40px;
   background-color: var(--navbar-bg);
   color: var(--text-color);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-left {
   display: flex;
   gap: 20px;
   font-size: 14px;
+  justify-content: flex-start;
+  visibility: hidden;
 }
 
 .navbar-center {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-center h1 {
-  font-size: 28px;
-  letter-spacing: 3px;
+  font-size: 32px;
+  letter-spacing: 4px;
   margin: 0;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar-center h1:hover {
+  letter-spacing: 6px;
+  opacity: 0.8;
 }
 
 .navbar-center a {
@@ -77,10 +102,25 @@
 .navbar-right a {
   text-decoration: none;
   color: var(--text-color);
+  transition: all 0.3s ease;
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-right a:hover {
+  opacity: 0.7;
+  border-bottom: 2px solid var(--text-color);
+}
+
+.cart-link {
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .search-bar {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .search-input {
@@ -98,8 +138,13 @@
   color: var(--text-color);
 }
 
+.search-input:hover {
+  border-color: var(--text-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .search-input.expanded {
-  width: 200px;
+  width: 220px;
   border-radius: 24px;
   background: var(--input-bg);
   padding: 8px 16px;
@@ -108,6 +153,8 @@
   background-repeat: no-repeat;
   background-size: 16px;
   padding-right: 36px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--text-color);
 }
 
 .search-input::placeholder {
@@ -124,25 +171,34 @@
   border: none;
   font-size: 20px;
   cursor: pointer;
-  padding: 8px 8px;
-  border-radius: 50%;
+  padding: 8px 10px;
+  border-radius: 8px;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 
 .theme-toggle:hover {
   background-color: var(--input-bg);
-  transform: scale(1.1);
+  border-color: var(--text-color);
+  transform: scale(1.05);
 }
 
 .navbar-bottom {
-  padding: 12px 40px;
+  padding: 15px 40px;
+  background-color: var(--navbar-bg);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .navbar-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 40px;
   list-style: none;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -156,14 +212,14 @@
 .navbar-left span:hover,
 .navbar-right span:hover,
 .mini-right span:hover {
-  text-decoration: underline;
+  opacity: 0.7;
 }
 
 .navbar-links a:hover,
 .navbar-left a:hover,
 .navbar-right a:hover,
 .mini-right a:hover {
-  text-decoration: underline;
+  opacity: 0.7;
 }
 
 .navbar-center a:hover {
@@ -173,6 +229,26 @@
 .navbar-links a {
   text-decoration: none;
   color: var(--text-color);
+
+  transition: all 0.3s ease;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.navbar-links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color);
+  transition: width 0.3s ease;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+
 }
 
 /* 🔥 PROFILE SECTION ADDED */
@@ -205,4 +281,5 @@
   border: none;
   cursor: pointer;
   color: var(--text-color);
+
 }

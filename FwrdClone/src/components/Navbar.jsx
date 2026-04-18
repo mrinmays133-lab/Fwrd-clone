@@ -1,10 +1,14 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
+
+import "./Navbar.css";
+
 import { auth } from "../pages/firebase"; // 
 import { onAuthStateChanged, signOut } from "firebase/auth"; 
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
+
 
 const categories = [
   { label: "CLOTHING", path: "/shop/clothing" },
@@ -18,8 +22,10 @@ const Navbar = ({ toggleTheme, theme }) => {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const { cart } = useContext(CartContext);
 
+
   const [user, setUser] = useState(null); 
   const navigate = useNavigate();
+
 
   const itemCount = cart.reduce((acc, item) => acc + item.quantity, 0);
 
@@ -49,6 +55,9 @@ const Navbar = ({ toggleTheme, theme }) => {
           <span>|</span>
           <span>INR</span>
 
+          <Link to="/login">Sign In</Link>
+
+
           {/* 🔥 CONDITIONAL UI */}
           {user ? (
             <>
@@ -68,20 +77,33 @@ const Navbar = ({ toggleTheme, theme }) => {
           ) : (
             <Link to="/login">Sign In</Link>
           )}
+
         </div>
       </div>
 
       {/* Top Nav */}
       <div className="navbar-top">
         <div className="navbar-left">
+
+          <span>Womens</span>
+        </div>
+
+        {/* Logo */}
+        <div className="navbar-center">
+
           <span></span>
         </div>
 
         <div className="navbar-logo">
+
           <Link to="/" className="logo-link">
             <h1>LUXION</h1>
           </Link>
         </div>
+
+
+        {/* Right Section */}
+
 
         <div className="navbar-right">
           <div className="search-bar">
