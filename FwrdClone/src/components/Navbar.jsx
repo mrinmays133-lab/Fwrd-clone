@@ -1,14 +1,11 @@
 import React, { useState, useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 
 import "./Navbar.css";
 
-import { auth } from "../pages/firebase"; // 
-import { onAuthStateChanged, signOut } from "firebase/auth"; 
-import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
-
+import { auth } from "../pages/firebase";
+import { onAuthStateChanged, signOut } from "firebase/auth";
 
 const categories = [
   { label: "CLOTHING", path: "/shop/clothing" },
@@ -22,14 +19,11 @@ const Navbar = ({ toggleTheme, theme }) => {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const { cart } = useContext(CartContext);
 
-
-  const [user, setUser] = useState(null); 
+  const [user, setUser] = useState(null);
   const navigate = useNavigate();
-
 
   const itemCount = cart.reduce((acc, item) => acc + item.quantity, 0);
 
-  // 🔥 listen for login state
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -38,7 +32,6 @@ const Navbar = ({ toggleTheme, theme }) => {
     return () => unsubscribe();
   }, []);
 
-  // 🔥 logout function
   const handleLogout = async () => {
     await signOut(auth);
     navigate("/");
@@ -55,19 +48,15 @@ const Navbar = ({ toggleTheme, theme }) => {
           <span>|</span>
           <span>INR</span>
 
-          <Link to="/login">Sign In</Link>
-
-
-          {/* 🔥 CONDITIONAL UI */}
           {user ? (
             <>
               <img
-               src={
-               user.photoURL ||
-              "https://cdn-icons-png.flaticon.com/512/847/847969.png"
-              }
-              alt="profile"
-              className="profile-pic"
+                src={
+                  user.photoURL ||
+                  "https://cdn-icons-png.flaticon.com/512/847/847969.png"
+                }
+                alt="profile"
+                className="profile-pic"
               />
 
               <button onClick={handleLogout} className="logout-btn">
@@ -77,35 +66,26 @@ const Navbar = ({ toggleTheme, theme }) => {
           ) : (
             <Link to="/login">Sign In</Link>
           )}
-
         </div>
       </div>
 
       {/* Top Nav */}
       <div className="navbar-top">
         <div className="navbar-left">
-
           <span>Womens</span>
         </div>
 
-        {/* Logo */}
+        {/* CENTER LOGO (FIXED) */}
         <div className="navbar-center">
-
-          <span></span>
-        </div>
-
-        <div className="navbar-logo">
-
           <Link to="/" className="logo-link">
             <h1>LUXION</h1>
           </Link>
         </div>
 
-
         {/* Right Section */}
-
-
         <div className="navbar-right">
+          {/* My Bag moved LEFT inside right section */}
+
           <div className="search-bar">
             <input
               type="text"
@@ -120,7 +100,9 @@ const Navbar = ({ toggleTheme, theme }) => {
             {theme === "light" ? "🌙" : "☀️"}
           </button>
 
-          <Link to="/cart">My Bag ({itemCount})</Link>
+          <Link to="/cart" className="cart-link">
+            My Bag ({itemCount})
+          </Link>
         </div>
       </div>
 

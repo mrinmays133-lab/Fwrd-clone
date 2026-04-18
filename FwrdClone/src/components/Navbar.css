@@ -9,6 +9,7 @@
   font-family: Arial, sans-serif;
 }
 
+/* MINI NAV */
 .navbar-mini {
   display: flex;
   justify-content: flex-end;
@@ -44,6 +45,7 @@
 
 }
 
+/* TOP NAV */
 .navbar-top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -91,6 +93,7 @@
   color: var(--text-color);
 }
 
+/* RIGHT SECTION */
 .navbar-right {
   display: flex;
   justify-content: flex-end;
@@ -132,10 +135,11 @@
   font-size: 14px;
   outline: none;
   transition: all 0.3s ease;
-  cursor: pointer;
-  background: var(--input-bg) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') no-repeat center;
-  background-size: 16px;
+  background-color: var(--input-bg);
   color: var(--text-color);
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>');
+   background-repeat: no-repeat;
+   background-position: right 12px center;
 }
 
 .search-input:hover {
@@ -166,6 +170,7 @@
   opacity: 0.6;
 }
 
+/* THEME BUTTON */
 .theme-toggle {
   background: none;
   border: none;
@@ -260,7 +265,7 @@
   cursor: pointer;
 }
 
-/* PROFILE PIC (circle) */
+/* PROFILE */
 .profile-pic {
   width: 28px;
   height: 28px;
