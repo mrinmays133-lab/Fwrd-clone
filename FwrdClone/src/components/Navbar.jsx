@@ -17,6 +17,8 @@ const categories = [
 
 const Navbar = ({ toggleTheme, theme }) => {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
   const { cart } = useContext(CartContext);
 
   const [user, setUser] = useState(null);
@@ -35,6 +37,13 @@ const Navbar = ({ toggleTheme, theme }) => {
   const handleLogout = async () => {
     await signOut(auth);
     navigate("/");
+  };
+
+  // ✅ Search handler
+  const handleSearch = (e) => {
+    if (e.key === "Enter" && searchQuery.trim() !== "") {
+      navigate(`/search?q=${searchQuery}`);
+    }
   };
 
   return (
@@ -75,7 +84,7 @@ const Navbar = ({ toggleTheme, theme }) => {
           <span>Womens</span>
         </div>
 
-        {/* CENTER LOGO (FIXED) */}
+        {/* CENTER LOGO */}
         <div className="navbar-center">
           <Link to="/" className="logo-link">
             <h1>LUXION</h1>
@@ -84,15 +93,26 @@ const Navbar = ({ toggleTheme, theme }) => {
 
         {/* Right Section */}
         <div className="navbar-right">
-          {/* My Bag moved LEFT inside right section */}
 
+          {/* ✅ SEARCH BAR FIXED */}
           <div className="search-bar">
             <input
               type="text"
               placeholder="Search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
               className={`search-input ${isSearchExpanded ? "expanded" : ""}`}
+              
               onFocus={() => setIsSearchExpanded(true)}
-              onBlur={() => setIsSearchExpanded(false)}
+              
+              onBlur={() => {
+                // ✅ only collapse if empty
+                if (searchQuery.trim() === "") {
+                  setIsSearchExpanded(false);
+                }
+              }}
+
+              onKeyDown={handleSearch}
             />
           </div>
 
