@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Shop from './pages/Shop';
 import AuthPage from './pages/Login';
+import ProductDetail from './components/ProductDetail';
+import SearchPage from "./pages/SearchPage";
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -26,8 +28,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop/:category" element={<Shop />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<AuthPage />} />
+            <Route path="/search" element={<SearchPage />} />
           </Routes>
         </div>
       </main>

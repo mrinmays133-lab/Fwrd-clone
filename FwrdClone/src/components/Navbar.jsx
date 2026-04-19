@@ -1,10 +1,11 @@
 import React, { useState, useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
-import { auth } from "../pages/firebase"; // 
-import { onAuthStateChanged, signOut } from "firebase/auth"; 
+
 import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
+
+import { auth } from "../pages/firebase";
+import { onAuthStateChanged, signOut } from "firebase/auth";
 
 const categories = [
   { label: "CLOTHING", path: "/shop/clothing" },
@@ -16,14 +17,15 @@ const categories = [
 
 const Navbar = ({ toggleTheme, theme }) => {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
   const { cart } = useContext(CartContext);
 
-  const [user, setUser] = useState(null); 
+  const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
   const itemCount = cart.reduce((acc, item) => acc + item.quantity, 0);
 
-  // 🔥 listen for login state
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -32,10 +34,16 @@ const Navbar = ({ toggleTheme, theme }) => {
     return () => unsubscribe();
   }, []);
 
-  // 🔥 logout function
   const handleLogout = async () => {
     await signOut(auth);
     navigate("/");
+  };
+
+  // ✅ Search handler
+  const handleSearch = (e) => {
+    if (e.key === "Enter" && searchQuery.trim() !== "") {
+      navigate(`/search?q=${searchQuery}`);
+    }
   };
 
   return (
@@ -49,16 +57,15 @@ const Navbar = ({ toggleTheme, theme }) => {
           <span>|</span>
           <span>INR</span>
 
-          {/* 🔥 CONDITIONAL UI */}
           {user ? (
             <>
               <img
-               src={
-               user.photoURL ||
-              "https://cdn-icons-png.flaticon.com/512/847/847969.png"
-              }
-              alt="profile"
-              className="profile-pic"
+                src={
+                  user.photoURL ||
+                  "https://cdn-icons-png.flaticon.com/512/847/847969.png"
+                }
+                alt="profile"
+                className="profile-pic"
               />
 
               <button onClick={handleLogout} className="logout-btn">
@@ -74,23 +81,38 @@ const Navbar = ({ toggleTheme, theme }) => {
       {/* Top Nav */}
       <div className="navbar-top">
         <div className="navbar-left">
-          <span></span>
+          <span>Womens</span>
         </div>
 
-        <div className="navbar-logo">
+        {/* CENTER LOGO */}
+        <div className="navbar-center">
           <Link to="/" className="logo-link">
             <h1>LUXION</h1>
           </Link>
         </div>
 
+        {/* Right Section */}
         <div className="navbar-right">
+
+          {/* ✅ SEARCH BAR FIXED */}
           <div className="search-bar">
             <input
               type="text"
               placeholder="Search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
               className={`search-input ${isSearchExpanded ? "expanded" : ""}`}
+              
               onFocus={() => setIsSearchExpanded(true)}
-              onBlur={() => setIsSearchExpanded(false)}
+              
+              onBlur={() => {
+                // ✅ only collapse if empty
+                if (searchQuery.trim() === "") {
+                  setIsSearchExpanded(false);
+                }
+              }}
+
+              onKeyDown={handleSearch}
             />
           </div>
 
@@ -98,7 +120,9 @@ const Navbar = ({ toggleTheme, theme }) => {
             {theme === "light" ? "🌙" : "☀️"}
           </button>
 
-          <Link to="/cart">My Bag ({itemCount})</Link>
+          <Link to="/cart" className="cart-link">
+            My Bag ({itemCount})
+          </Link>
         </div>
       </div>
 

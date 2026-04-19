@@ -1,10 +1,14 @@
 import products from "../data/products.js";
-import "./Shop.css";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import "./Shop.css"; // ✅ reuse same styling
+import { useLocation, Link, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
-const Shop = () => {
-  const { category } = useParams();
+const SearchPage = () => {
   const navigate = useNavigate();
+  const [filteredProducts, setFilteredProducts] = useState([]);
+
+  const query =
+    new URLSearchParams(useLocation().search).get("q") || "";
 
   const formatPrice = (price) =>
     `₹${price.toLocaleString("en-IN", {
@@ -12,25 +16,38 @@ const Shop = () => {
       maximumFractionDigits: 2,
     })}`;
 
-  const filteredProducts = products.filter(
-    (product) => product.category === category
-  );
+  useEffect(() => {
+    const result = products.filter((product) =>
+      `${product.name} ${product.brand} ${product.category} ${product.type}`
+        .toLowerCase()
+        .includes(query.toLowerCase())
+    );
+
+    setFilteredProducts(result);
+  }, [query]);
 
   const handleCheck = (productId) => {
-    navigate(`/product/${productId}`);
+    navigate(`/product/${productId}`); // ✅ SAME as Shop
   };
 
   return (
     <div className="ms-page">
       <div className="ms-container">
-        <h1 className="ms-title">{category?.toUpperCase()}</h1>
-        <p className="ms-count">{filteredProducts.length} Items</p>
+        <h1 className="ms-title">Search Results</h1>
+        <p className="ms-count">
+          {filteredProducts.length} Items for "{query}"
+        </p>
 
         <div className="ms-grid">
           {filteredProducts.map((product) => (
             <div key={product.id} className="ms-card">
               <div className="ms-image-wrapper">
-                <Link to={`/product/${product.id}`} className="ms-card-link">
+                
+                {/* ✅ SAME LINK AS SHOP */}
+                <Link
+                  to={`/product/${product.id}`}
+                  className="ms-card-link"
+                >
                   {product.image ? (
                     <img
                       src={product.image}
@@ -44,7 +61,7 @@ const Shop = () => {
                   )}
                 </Link>
 
-                {/* ✅ CHECK BUTTON - NAVIGATES TO PRODUCT DETAIL */}
+                {/* ✅ SAME BUTTON AS SHOP */}
                 <button
                   className="ms-add-to-cart"
                   onClick={(e) => {
@@ -71,4 +88,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default SearchPage;
