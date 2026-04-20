@@ -7,7 +7,8 @@ import Cart from './pages/Cart';
 import Shop from './pages/Shop';
 import AuthPage from './pages/Login';
 import ProductDetail from './components/ProductDetail';
-import SearchPage from "./pages/SearchPage";
+import Checkout from "./pages/Checkout";   // adjust path if needed
+import Payment from "./pages/Payment";
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -30,8 +31,9 @@ function App() {
             <Route path="/shop/:category" element={<Shop />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/payment" element={<Payment />} />
             <Route path="/login" element={<AuthPage />} />
-            <Route path="/search" element={<SearchPage />} />
           </Routes>
         </div>
       </main>

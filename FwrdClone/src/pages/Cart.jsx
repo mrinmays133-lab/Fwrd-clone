@@ -1,9 +1,11 @@
 import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 import "./Cart.css";
 
 const Cart = () => {
   const { cart, removeItem, updateQty, total } = useContext(CartContext);
+  const navigate = useNavigate();
 
   const formatPrice = (price) =>
     `₹${price.toLocaleString("en-IN", {
@@ -55,7 +57,7 @@ const Cart = () => {
                     </select>
                   </div>
 
-                  <button 
+                  <button
                     onClick={() => removeItem(item.cartItemId)}
                     className="remove-btn"
                   >
@@ -79,7 +81,11 @@ const Cart = () => {
             <p>Shipping: Free</p>
             <h4>Total: {formatPrice(total)}</h4>
 
-            <button className="checkout-btn">
+           
+            <button
+              className="checkout-btn"
+              onClick={() => navigate("/checkout")}
+            >
               PROCEED TO CHECKOUT
             </button>
           </div>
